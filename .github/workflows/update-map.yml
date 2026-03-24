@@ -24,7 +24,6 @@ jobs:
         env:
           MIGHTY_API_TOKEN: ${{ secrets.MIGHTY_API_TOKEN }}
         run: python fetch_members.py
-
 - name: Save updated members.json
         run: |
           git config --global user.name 'GitHub Actions'
