@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AOEU Community Member Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    #map { height: 100vh; width: 100%; }
+
+    .member-popup {
+      text-align: center;
+      max-width: 200px;
+    }
+    .member-popup img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 8px;
+      border: 2px solid #e0a040;
+    }
+    .member-popup .name {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .member-popup .location {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 6px;
+    }
+    .member-popup .bio {
+      font-size: 11px;
+      color: #444;
+      font-style: italic;
+      margin-bottom: 8px;
+      line-height: 1.4;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .member-popup a {
+      display: inline-block;
+      color: #00afd7;
+      font-weight: bold;
+      font-size: 12px;
+      text-decoration: none;
+    }
+    .member-popup a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([20, 0], 2);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    const artIcon = L.divIcon({
+      html: '<span style="font-size:24px;line-height:1;">🎨</span>',
+      className: '',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+      popupAnchor: [0, -16]
+    });
+
+    fetch('members.json')
+      .then(res => res.json())
+      .then(members => {
+        members.forEach(member => {
+          const marker = L.marker([member.lat, member.lng], { icon: artIcon });
+
+          const avatarHtml = member.avatar
+            ? `<img src="${member.avatar}" alt="${member.name}" />`
+            : `<div style="font-size:40px;margin-bottom:8px;">🎨</div>`;
+
+          const bioHtml = member.bio
+            ? `<div class="bio">${member.bio}</div>`
+            : '';
+
+          marker.bindPopup(`
+            <div class="member-popup">
+              ${avatarHtml}
+              <div class="name">${member.name}</div>
+              ${member.location ? `<div class="location">📍 ${member.location}</div>` : ''}
+              ${bioHtml}
+              <a href="${member.profile_url}" target="_blank">View Profile →</a>
+            </div>
+          `);
+
+          marker.addTo(map);
+        });
+        console.log(`Loaded ${members.length} members on the map.`);
+      })
+      .catch(err => console.error('Failed to load members.json:', err));
+  </script>
+</body>
+</html>
