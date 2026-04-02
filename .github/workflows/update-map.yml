@@ -1,4 +1,4 @@
-name: Update Member Map Daily
+name: Update Member Map Weekly on Sundays
 
 on:
   schedule:
