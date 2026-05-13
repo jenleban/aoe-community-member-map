@@ -2,6 +2,8 @@ import requests
 import json
 import time
 import os
+import re
+import random
 
 MIGHTY_API_TOKEN = os.environ["MIGHTY_API_TOKEN"]
 NETWORK_ID = "14221297"
@@ -13,7 +15,31 @@ HEADERS = {
 
 geocode_cache = {}
 
-# Timezone → approximate country/region center coordinates
+# ─── US States ───────────────────────────────────────────────────────────────
+
+US_STATE_NAMES = [
+    'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado',
+    'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho',
+    'Illinois', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine',
+    'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi',
+    'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+    'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+    'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+    'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah',
+    'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+]
+
+# Note: 'IN' (Indiana) intentionally excluded - too often matched as preposition "in"
+US_STATE_ABBREVS = [
+    'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
+    'HI', 'ID', 'IL', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA',
+    'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM',
+    'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD',
+    'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY', 'DC'
+]
+
+# ─── Timezone → Approximate Coordinates ──────────────────────────────────────
+
 TIMEZONE_COORDS = {
     "America/New_York":       (39.0, -76.0),
     "America/Chicago":        (41.0, -89.0),
@@ -73,10 +99,75 @@ TIMEZONE_COORDS = {
     "America/Mexico_City":    (19.4, -99.1),
 }
 
-import random
+# ─── Bio Location Extraction ──────────────────────────────────────────────────
+
+def extract_location_from_bio(bio):
+    """
+    Try to extract a geocodeable location string from a member's bio.
+    Returns a location string like 'Tampa, FL' or 'Montana', or None.
+    """
+    if not bio or bio.strip() in ('', ' '):
+        return None
+
+    # Strip emojis and non-ASCII characters, normalize whitespace
+    bio_clean = re.sub(r'[^\x00-\x7F]+', ' ', bio)
+    bio_clean = re.sub(r'\s+', ' ', bio_clean).strip()
+
+    if not bio_clean:
+        return None
+
+    abbrev_str = '|'.join(US_STATE_ABBREVS)
+
+    # Pattern 1: "City, XX" — explicit city + 2-letter state abbreviation
+    # e.g. "Art teacher in Joliet, IL" or "High School Teacher, Belmont, CA"
+    city_abbrev = re.compile(
+        r'\b([A-Z][a-zA-Z]+(?:\s[A-Z][a-zA-Z]+)?),\s*(' + abbrev_str + r')\b'
+    )
+    match = city_abbrev.search(bio_clean)
+    if match:
+        return f"{match.group(1)}, {match.group(2)}"
+
+    # Pattern 2: "in [City] [State abbrev]" — city + abbreviation after "in"
+    # e.g. "teaching in Tampa FL"
+    in_city_abbrev = re.compile(
+        r'\bin\s+([A-Z][a-zA-Z]+(?:\s[A-Z][a-zA-Z]+)?),?\s+(' + abbrev_str + r')\b'
+    )
+    match = in_city_abbrev.search(bio_clean)
+    if match:
+        return f"{match.group(1)}, {match.group(2)}"
+
+    # Pattern 3: "in [Full State Name]"
+    # e.g. "art teacher in Montana" or "teaching in Kentucky"
+    # Sort by length descending so "New York" matches before "York"
+    for state in sorted(US_STATE_NAMES, key=len, reverse=True):
+        pattern = re.compile(r'\bin\s+' + re.escape(state) + r'\b', re.IGNORECASE)
+        if pattern.search(bio_clean):
+            return state
+
+    # Pattern 4: "suburbs of [City]" or "area of [City]"
+    # e.g. "teacher in the suburbs of Chicago"
+    suburbs_match = re.compile(
+        r'\bsuburbs?\s+of\s+([A-Z][a-zA-Z]+(?:\s[A-Z][a-zA-Z]+)?)\b',
+        re.IGNORECASE
+    )
+    match = suburbs_match.search(bio_clean)
+    if match:
+        return match.group(1)
+
+    # Pattern 5: "from [City, State]" or "from [State]"
+    from_match = re.compile(
+        r'\bfrom\s+([A-Z][a-zA-Z]+(?:\s[A-Z][a-zA-Z]+)?),?\s*(' + abbrev_str + r')\b'
+    )
+    match = from_match.search(bio_clean)
+    if match:
+        return f"{match.group(1)}, {match.group(2)}"
+
+    return None
+
+
+# ─── Geocoding ────────────────────────────────────────────────────────────────
 
 def jitter(coord, amount=1.5):
-    """Add a tiny random offset so pins don't stack exactly on top of each other."""
     return coord + random.uniform(-amount, amount)
 
 def geocode_city(location):
@@ -100,26 +191,27 @@ def geocode_city(location):
         return None
 
 def coords_from_timezone(tz):
-    """Fall back to approximate region coords based on timezone."""
     if not tz:
         return None
     coords = TIMEZONE_COORDS.get(tz)
     if coords:
         return {"lat": jitter(coords[0]), "lng": jitter(coords[1])}
-    # Try continent-level fallback from timezone prefix
     prefix = tz.split("/")[0]
     fallbacks = {
-        "America": (39.5, -98.4),
-        "Europe":  (50.0, 10.0),
-        "Asia":    (34.0, 100.0),
-        "Africa":  (0.0, 20.0),
-        "Pacific": (-20.0, 170.0),
+        "America":   (39.5, -98.4),
+        "Europe":    (50.0, 10.0),
+        "Asia":      (34.0, 100.0),
+        "Africa":    (0.0, 20.0),
+        "Pacific":   (-20.0, 170.0),
         "Australia": (-25.0, 134.0),
     }
     if prefix in fallbacks:
         c = fallbacks[prefix]
         return {"lat": jitter(c[0], 3.0), "lng": jitter(c[1], 5.0)}
     return None
+
+
+# ─── Fetch Members ────────────────────────────────────────────────────────────
 
 def fetch_all_members():
     members = []
@@ -132,66 +224,89 @@ def fetch_all_members():
         )
         resp.raise_for_status()
         data = resp.json()
-
         batch = data.get("items", [])
         if not batch:
             break
         members.extend(batch)
         print(f"  Fetched page {page} ({len(batch)} members)...")
-
         if not data.get("links", {}).get("next"):
             break
         page += 1
     return members
 
+
+# ─── Build Map Data ───────────────────────────────────────────────────────────
+
 def build_map_data():
     print("Fetching members from Mighty Networks...")
     raw_members = fetch_all_members()
     print(f"\nTotal members fetched: {len(raw_members)}")
-    print("Geocoding locations...")
+    print("Geocoding locations...\n")
 
     map_members = []
-    placed_by_location = 0
-    placed_by_timezone = 0
-    skipped = 0
+    placed_by_location  = 0
+    placed_by_bio       = 0
+    placed_by_timezone  = 0
+    skipped             = 0
 
     for m in raw_members:
-        location = (m.get("location") or "").strip()
-        tz = m.get("time_zone", "")
+        location  = (m.get("location") or "").strip()
+        bio       = m.get("bio") or ""
+        tz        = m.get("time_zone", "")
         full_name = f"{m.get('first_name', '')} {m.get('last_name', '')}".strip()
 
-        # Try exact location first
-        coords = geocode_city(location) if location else None
+        coords        = None
+        display_loc   = location   # what shows in the popup
+        location_source = None
 
-        # Fall back to timezone if no location
+        # ── 1. Try explicit profile location first ──
+        if location:
+            coords = geocode_city(location)
+            if coords:
+                location_source = "location"
+                placed_by_location += 1
+
+        # ── 2. Try extracting location from bio ──
+        if not coords:
+            bio_location = extract_location_from_bio(bio)
+            if bio_location:
+                coords = geocode_city(bio_location)
+                if coords:
+                    location_source = "bio"
+                    display_loc = bio_location
+                    placed_by_bio += 1
+
+        # ── 3. Fall back to timezone approximation ──
         if not coords:
             coords = coords_from_timezone(tz)
             if coords:
+                location_source = "timezone"
+                display_loc = ""
                 placed_by_timezone += 1
             else:
                 skipped += 1
-        else:
-            placed_by_location += 1
 
         if coords:
             map_members.append({
-                "name": full_name or "Unknown",
-                "location": location,  # may be empty for timezone-placed members
-                "profile_url": m.get("permalink", f"https://community.theartofeducation.edu/members/{m.get('id')}"),
-                "avatar": m.get("avatar", ""),
-                "bio": m.get("bio", ""),
-                "lat": coords["lat"],
-                "lng": coords["lng"]
+                "name":         full_name or "Unknown",
+                "location":     display_loc,
+                "profile_url":  m.get("permalink", f"https://community.theartofeducation.edu/members/{m.get('id')}"),
+                "avatar":       m.get("avatar", ""),
+                "bio":          bio,
+                "lat":          coords["lat"],
+                "lng":          coords["lng"]
             })
 
-    print(f"\n✅ {len(map_members)} members placed on map")
-    print(f"   📍 {placed_by_location} placed by exact location")
+    print(f"✅ {len(map_members)} members placed on map")
+    print(f"   📍 {placed_by_location} placed by profile location (exact)")
+    print(f"   📝 {placed_by_bio} placed by bio location (extracted)")
     print(f"   🌍 {placed_by_timezone} placed by timezone (approximate)")
-    print(f"⚠️  {skipped} members skipped (no location or timezone)")
+    print(f"⚠️  {skipped} members skipped (no location, bio, or timezone)")
 
     with open("members.json", "w") as f:
         json.dump(map_members, f, indent=2)
     print("💾 Saved to members.json")
+
 
 if __name__ == "__main__":
     build_map_data()
