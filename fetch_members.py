@@ -77,6 +77,16 @@ def load_state_lookup(path="state_lookup.json"):
     print("  Loaded state lookup: " + str(len(data)) + " member -> state mappings")
     return data
 
+def load_member_cache(path="members.json"):
+    if not os.path.exists(path):
+        print("  No existing members.json -- full geocode run")
+        return {}
+    with open(path) as f:
+        existing = json.load(f)
+    cache = {m["id"]: m for m in existing}
+    print("  Loaded geocode cache: " + str(len(cache)) + " existing members")
+    return cache
+
 def geocode_location(location_str):
     if not location_str or location_str in geocode_cache:
         return geocode_cache.get(location_str)
@@ -135,8 +145,6 @@ def fetch_all_members():
             print("  Error on page " + str(page) + ": " + resp.text[:300])
             break
         data = resp.json()
-        if page == 1:
-            print("  Response keys: " + str(list(data.keys())))
         batch = data.get("items", [])
         if not batch:
             break
@@ -153,16 +161,19 @@ def fetch_all_members():
 def main():
     print("=== AOEU Member Map: fetch_members.py ===\n")
 
-    print("[1/3] Loading supplementary state lookup...")
+    print("[1/4] Loading supplementary state lookup...")
     state_lookup = load_state_lookup("state_lookup.json")
 
-    print("\n[2/3] Fetching members from Mighty Networks API...")
+    print("\n[2/4] Loading geocode cache from previous run...")
+    member_cache = load_member_cache("members.json")
+
+    print("\n[3/4] Fetching members from Mighty Networks API...")
     raw_members = fetch_all_members()
     print("  Total members fetched: " + str(len(raw_members)))
 
-    print("\n[3/3] Geocoding members...")
+    print("\n[4/4] Geocoding members...")
     output = []
-    stats = {"location":0,"bio":0,"state_lookup":0,"timezone":0,"skipped":0}
+    stats = {"location":0,"bio":0,"state_lookup":0,"timezone":0,"skipped":0,"cached":0}
 
     for m in raw_members:
         member_id   = str(m.get("id",""))
@@ -172,6 +183,30 @@ def main():
         name        = (m.get("first_name","") + " " + m.get("last_name","")).strip()
         profile_url = m.get("permalink","")
         avatar      = m.get("avatar","")
+
+        cached = member_cache.get(member_id)
+        cached_location = (cached.get("location","") if cached else "")
+        current_location = location or state_lookup.get(member_id,"")
+
+        if (cached
+                and cached.get("lat")
+                and cached.get("lng")
+                and cached_location == current_location
+                and cached.get("geo_method") != "timezone"):
+            stats["cached"] += 1
+            output.append({
+                "id":member_id,
+                "name":name,
+                "location":current_location,
+                "profile_url":profile_url,
+                "avatar":avatar,
+                "bio":bio[:300] if bio else "",
+                "lat":cached["lat"],
+                "lng":cached["lng"],
+                "geo_method":cached["geo_method"],
+            })
+            continue
+
         lat = lng = None
         method = None
 
@@ -225,6 +260,7 @@ def main():
     total_placed = len(output)
     print("\n" + "="*46)
     print("  Members fetched:           " + str(total))
+    print("  Served from cache:         " + str(stats["cached"]) + "  (no Nominatim call needed)")
     print("  Placed by location field:  " + str(stats["location"]))
     print("  Placed by bio extraction:  " + str(stats["bio"]))
     print("  Placed by state lookup:    " + str(stats["state_lookup"]) + "  <- NEW")
