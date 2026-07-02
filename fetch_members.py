@@ -135,7 +135,10 @@ def fetch_all_members():
         if resp.status_code != 200:
             print("  Error: " + resp.text[:500])
             break
-        data = resp.json()
+        data = resp.json()next_url = data.get("links", {}).get("next")
+        if next_url and next_url.startswith("/"):
+            next_url = "https://api.mn.co" + next_url
+        url = next_url
         if page == 1:
             print("  Response keys: " + str(list(data.keys())))
         batch = data.get("items", [])
@@ -144,7 +147,10 @@ def fetch_all_members():
             break
         members.extend(batch)
         print("  Page " + str(page) + ": " + str(len(batch)) + " members (" + str(len(members)) + " total)")
-        url = data.get("links", {}).get("next")
+        next_url = data.get("links", {}).get("next")
+        if next_url and next_url.startswith("/"):
+            next_url = "https://api.mn.co" + next_url
+        url = next_url
         time.sleep(0.5)
     return members
 
