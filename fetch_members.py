@@ -312,7 +312,8 @@ def main():
     print(f"  Placed by timezone:       {stats['timezone']:>6,}")
     print(f"  Skipped (no data):        {stats['skipped']:>6,}")
     print(f"  ─────────────────────────────────")
-    print(f"  Total placed on map:      {total_placed:>6,}" + (f"  ({total_placed/total*100:.1f}%)" if total > 0 else ""))    print(f"  members.json written ✅")
+    if total > 0:
+            print(f"  Total placed on map:      {total_placed:>6,}  ({total_placed/total*100:.1f}%)")
     print(f"{'='*45}")
 
 
