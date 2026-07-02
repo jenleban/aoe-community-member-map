@@ -86,7 +86,8 @@ TIMEZONE_CENTERS = {
 
 def api_get(url):
     resp = requests.get(url, headers=HEADERS, timeout=30)
-    print(f"  API status: {resp.status_code}")
+   print(f"  API status: {resp.status_code}")
+    print(f"  API response preview: {resp.text[:800]}")
     if resp.status_code != 200:
         print(f"  API error: {resp.text[:500]}")
         return {}
