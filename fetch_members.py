@@ -131,26 +131,22 @@ def fetch_all_members():
     while url:
         page += 1
         resp = requests.get(url, headers=HEADERS, timeout=30)
-        print("  Page " + str(page) + " status: " + str(resp.status_code))
         if resp.status_code != 200:
-            print("  Error: " + resp.text[:500])
+            print("  Error on page " + str(page) + ": " + resp.text[:300])
             break
-        data = resp.json()next_url = data.get("links", {}).get("next")
-        if next_url and next_url.startswith("/"):
-            next_url = "https://api.mn.co" + next_url
-        url = next_url
+        data = resp.json()
         if page == 1:
             print("  Response keys: " + str(list(data.keys())))
         batch = data.get("items", [])
         if not batch:
-            print("  Empty batch on page " + str(page) + " -- stopping")
             break
         members.extend(batch)
         print("  Page " + str(page) + ": " + str(len(batch)) + " members (" + str(len(members)) + " total)")
-        next_url = data.get("links", {}).get("next")
-        if next_url and next_url.startswith("/"):
-            next_url = "https://api.mn.co" + next_url
-        url = next_url
+        raw_next = data.get("links", {}).get("next")
+        if raw_next and raw_next.startswith("/"):
+            url = "https://api.mn.co" + raw_next
+        else:
+            url = raw_next
         time.sleep(0.5)
     return members
 
