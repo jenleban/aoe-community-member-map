@@ -138,7 +138,7 @@ def fetch_all_members():
         data = resp.json()
         if page == 1:
             print("  Response keys: " + str(list(data.keys())))
-        batch = data.get("members", [])
+        batch = data.get("items", [])
         if not batch:
             print("  Empty batch on page " + str(page) + " -- stopping")
             break
