@@ -18,8 +18,7 @@ import os
 import random
 import re
 import time
-import urllib.parse
-import urllib.request
+import requests
 
 # ── credentials ──────────────────────────────────────────────────────────────
 API_TOKEN = os.environ["MIGHTY_API_TOKEN"]
@@ -86,10 +85,12 @@ TIMEZONE_CENTERS = {
 # ─────────────────────────────────────────────────────────────────────────────
 
 def api_get(url):
-    """Make an authenticated GET request to the Mighty Networks API."""
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode())
+    resp = requests.get(url, headers=HEADERS, timeout=30)
+    print(f"  API status: {resp.status_code}")
+    if resp.status_code != 200:
+        print(f"  API error: {resp.text[:500]}")
+        return {}
+    return resp.json()
 
 
 def nominatim_geocode(query):
