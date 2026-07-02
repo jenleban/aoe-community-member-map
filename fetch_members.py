@@ -27,7 +27,6 @@ NETWORK_ID = "14221297"
 BASE_URL = f"https://api.mn.co/admin/v1/networks/{NETWORK_ID}"
 HEADERS = {
     "Authorization": f"Bearer {API_TOKEN}",
-    "Content-Type": "application/json",
     "User-Agent": "curl/7.88.1",   # REQUIRED — without this, API returns 403
 }
 
@@ -313,8 +312,7 @@ def main():
     print(f"  Placed by timezone:       {stats['timezone']:>6,}")
     print(f"  Skipped (no data):        {stats['skipped']:>6,}")
     print(f"  ─────────────────────────────────")
-    print(f"  Total placed on map:      {total_placed:>6,}  ({total_placed/total*100:.1f}%)")
-    print(f"  members.json written ✅")
+    print(f"  Total placed on map:      {total_placed:>6,}" + (f"  ({total_placed/total*100:.1f}%)" if total > 0 else ""))    print(f"  members.json written ✅")
     print(f"{'='*45}")
 
 
