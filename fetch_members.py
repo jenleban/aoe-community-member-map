@@ -77,6 +77,15 @@ def load_state_lookup(path="state_lookup.json"):
     print("  Loaded state lookup: " + str(len(data)) + " member -> state mappings")
     return data
 
+def load_district_lookup(path="district_lookup.json"):
+    if not os.path.exists(path):
+        print("  Warning: district_lookup.json not found")
+        return {}
+    with open(path) as f:
+        data = json.load(f)
+    print("  Loaded district lookup: " + str(len(data)) + " domain -> district mappings")
+    return data
+
 def load_member_cache(path="members.json"):
     if not os.path.exists(path):
         print("  No existing members.json -- full geocode run")
@@ -161,32 +170,38 @@ def fetch_all_members():
 def main():
     print("=== AOEU Member Map: fetch_members.py ===\n")
 
-    print("[1/4] Loading supplementary state lookup...")
+    print("[1/5] Loading supplementary state lookup...")
     state_lookup = load_state_lookup("state_lookup.json")
 
-    print("\n[2/4] Loading geocode cache from previous run...")
+    print("\n[2/5] Loading district email lookup...")
+    district_lookup = load_district_lookup("district_lookup.json")
+
+    print("\n[3/5] Loading geocode cache from previous run...")
     member_cache = load_member_cache("members.json")
 
-    print("\n[3/4] Fetching members from Mighty Networks API...")
+    print("\n[4/5] Fetching members from Mighty Networks API...")
     raw_members = fetch_all_members()
     print("  Total members fetched: " + str(len(raw_members)))
 
-    print("\n[4/4] Geocoding members...")
+    print("\n[5/5] Geocoding members...")
     output = []
-    stats = {"location":0,"bio":0,"state_lookup":0,"timezone":0,"skipped":0,"cached":0}
+    stats = {"location":0,"bio":0,"state_lookup":0,"district":0,"timezone":0,"skipped":0,"cached":0}
 
     for m in raw_members:
         member_id   = str(m.get("id",""))
         location    = (m.get("location") or "").strip()
         bio         = (m.get("bio") or "").strip()
         timezone    = (m.get("time_zone") or "").strip()
+        email       = (m.get("email") or "").strip().lower()
         name        = (m.get("first_name","") + " " + m.get("last_name","")).strip()
         profile_url = m.get("permalink","")
         avatar      = m.get("avatar","")
 
+        email_domain = email.split("@")[-1] if "@" in email else ""
+        current_location = location or state_lookup.get(member_id,"")
+
         cached = member_cache.get(member_id)
         cached_location = (cached.get("location","") if cached else "")
-        current_location = location or state_lookup.get(member_id,"")
 
         if (cached
                 and cached.get("lat")
@@ -195,14 +210,11 @@ def main():
                 and cached.get("geo_method") != "timezone"):
             stats["cached"] += 1
             output.append({
-                "id":member_id,
-                "name":name,
+                "id":member_id,"name":name,
                 "location":current_location,
-                "profile_url":profile_url,
-                "avatar":avatar,
+                "profile_url":profile_url,"avatar":avatar,
                 "bio":bio[:300] if bio else "",
-                "lat":cached["lat"],
-                "lng":cached["lng"],
+                "lat":cached["lat"],"lng":cached["lng"],
                 "geo_method":cached["geo_method"],
             })
             continue
@@ -230,6 +242,11 @@ def main():
                 lat, lng = coords
                 method = "state_lookup"
 
+        if lat is None and email_domain and email_domain in district_lookup:
+            d = district_lookup[email_domain]
+            lat, lng = jitter(d["lat"], d["lng"], spread=0.3)
+            method = "district"
+
         if lat is None and timezone:
             coords = geocode_by_timezone(timezone)
             if coords:
@@ -242,14 +259,11 @@ def main():
 
         stats[method] += 1
         output.append({
-            "id":member_id,
-            "name":name,
+            "id":member_id,"name":name,
             "location":location or state_lookup.get(member_id,""),
-            "profile_url":profile_url,
-            "avatar":avatar,
+            "profile_url":profile_url,"avatar":avatar,
             "bio":bio[:300] if bio else "",
-            "lat":round(lat,5),
-            "lng":round(lng,5),
+            "lat":round(lat,5),"lng":round(lng,5),
             "geo_method":method,
         })
 
@@ -258,21 +272,22 @@ def main():
 
     total = len(raw_members)
     total_placed = len(output)
-    print("\n" + "="*46)
-    print("  Members fetched:           " + str(total))
-    print("  Served from cache:         " + str(stats["cached"]) + "  (no Nominatim call needed)")
-    print("  Placed by location field:  " + str(stats["location"]))
-    print("  Placed by bio extraction:  " + str(stats["bio"]))
-    print("  Placed by state lookup:    " + str(stats["state_lookup"]) + "  <- NEW")
-    print("  Placed by timezone:        " + str(stats["timezone"]))
-    print("  Skipped (no data):         " + str(stats["skipped"]))
-    print("  " + "-"*42)
+    print("\n" + "="*50)
+    print("  Members fetched:             " + str(total))
+    print("  Served from cache:           " + str(stats["cached"]))
+    print("  Placed by location field:    " + str(stats["location"]))
+    print("  Placed by bio extraction:    " + str(stats["bio"]))
+    print("  Placed by state lookup:      " + str(stats["state_lookup"]))
+    print("  Placed by district email:    " + str(stats["district"]) + "  <- NEW")
+    print("  Placed by timezone:          " + str(stats["timezone"]))
+    print("  Skipped (no data):           " + str(stats["skipped"]))
+    print("  " + "-"*46)
     if total > 0:
         print("  Total placed: " + str(total_placed) + " (" + str(round(total_placed/total*100,1)) + "%)")
     else:
         print("  Total placed: " + str(total_placed))
     print("  members.json written")
-    print("="*46)
+    print("="*50)
 
 if __name__ == "__main__":
     main()
