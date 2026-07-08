@@ -185,7 +185,7 @@ def main():
 
     print("\n[5/5] Geocoding members...")
     output = []
-    stats = {"location":0,"bio":0,"state_lookup":0,"district":0,"timezone":0,"skipped":0,"cached":0}
+    stats = {"location":0,"bio":0,"district":0,"state_lookup":0,"timezone":0,"skipped":0,"cached":0}
 
     for m in raw_members:
         member_id   = str(m.get("id",""))
@@ -197,10 +197,10 @@ def main():
         profile_url = m.get("permalink","")
         avatar      = m.get("avatar","")
 
-        email_domain = email.split("@")[-1] if "@" in email else ""
+        email_domain    = email.split("@")[-1] if "@" in email else ""
         current_location = location or state_lookup.get(member_id,"")
 
-        cached = member_cache.get(member_id)
+        cached          = member_cache.get(member_id)
         cached_location = (cached.get("location","") if cached else "")
 
         if (cached
@@ -222,12 +222,14 @@ def main():
         lat = lng = None
         method = None
 
+        # 1. Self-reported location (most precise)
         if location:
             coords = geocode_location(location)
             if coords:
                 lat, lng = coords
                 method = "location"
 
+        # 2. Bio extraction
         if lat is None:
             bio_loc = extract_location_from_bio(bio)
             if bio_loc:
@@ -236,17 +238,20 @@ def main():
                     lat, lng = coords
                     method = "bio"
 
+        # 3. District email lookup (city-level, more precise than state)
+        if lat is None and email_domain and email_domain in district_lookup:
+            d = district_lookup[email_domain]
+            lat, lng = jitter(d["lat"], d["lng"], spread=0.3)
+            method = "district"
+
+        # 4. State lookup (state-center)
         if lat is None and member_id in state_lookup:
             coords = geocode_by_state(state_lookup[member_id])
             if coords:
                 lat, lng = coords
                 method = "state_lookup"
 
-        if lat is None and email_domain and email_domain in district_lookup:
-            d = district_lookup[email_domain]
-            lat, lng = jitter(d["lat"], d["lng"], spread=0.3)
-            method = "district"
-
+        # 5. Timezone fallback (least precise)
         if lat is None and timezone:
             coords = geocode_by_timezone(timezone)
             if coords:
@@ -277,8 +282,8 @@ def main():
     print("  Served from cache:           " + str(stats["cached"]))
     print("  Placed by location field:    " + str(stats["location"]))
     print("  Placed by bio extraction:    " + str(stats["bio"]))
-    print("  Placed by state lookup:      " + str(stats["state_lookup"]))
     print("  Placed by district email:    " + str(stats["district"]) + "  <- NEW")
+    print("  Placed by state lookup:      " + str(stats["state_lookup"]))
     print("  Placed by timezone:          " + str(stats["timezone"]))
     print("  Skipped (no data):           " + str(stats["skipped"]))
     print("  " + "-"*46)
