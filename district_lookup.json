@@ -1,0 +1,2788 @@
+{
+  "christina.k12.de.us": {
+    "lat": 39.63019,
+    "lng": -75.74171,
+    "city": "Newark",
+    "state": "DE",
+    "name": "Christina School District"
+  },
+  "hazlet.org": {
+    "lat": 40.42729,
+    "lng": -74.15103,
+    "city": "Hazlet",
+    "state": "NJ",
+    "name": "Hazlet Township Public School District"
+  },
+  "mckinneyisd.net": {
+    "lat": 33.20651,
+    "lng": -96.63247,
+    "city": "MCKINNEY",
+    "state": "TX",
+    "name": "MCKINNEY ISD"
+  },
+  "irvingisd.net": {
+    "lat": 32.83818,
+    "lng": -96.98247,
+    "city": "IRVING",
+    "state": "TX",
+    "name": "IRVING ISD"
+  },
+  "godleyisd.net": {
+    "lat": 32.45393,
+    "lng": -97.53082,
+    "city": "GODLEY",
+    "state": "TX",
+    "name": "GODLEY ISD"
+  },
+  "lancasterisd.org": {
+    "lat": 32.5885,
+    "lng": -96.75545,
+    "city": "LANCASTER",
+    "state": "TX",
+    "name": "LANCASTER ISD"
+  },
+  "alvinisd.net": {
+    "lat": 29.41939,
+    "lng": -95.24119,
+    "city": "ALVIN",
+    "state": "TX",
+    "name": "ALVIN ISD"
+  },
+  "ramonausd.net": {
+    "lat": 36.07169,
+    "lng": -119.07058,
+    "city": "Ramona",
+    "state": "CA",
+    "name": "Ramona City Unified"
+  },
+  "onteora.k12.ny.us": {
+    "lat": 42.00946,
+    "lng": -74.26672,
+    "city": "BOICEVILLE",
+    "state": "NY",
+    "name": "ONTEORA CENTRAL SCHOOL DISTRICT"
+  },
+  "onslow.k12.nc.us": {
+    "lat": 34.74696,
+    "lng": -77.44859,
+    "city": "Jacksonville",
+    "state": "NC",
+    "name": "Onslow County Schools"
+  },
+  "springisd.org": {
+    "lat": 30.00964,
+    "lng": -95.44782,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "SPRING ISD"
+  },
+  "pasco.k12.fl.us": {
+    "lat": 28.26269,
+    "lng": -82.47716,
+    "city": "LAND O LAKES",
+    "state": "FL",
+    "name": "PASCO"
+  },
+  "aldineisd.org": {
+    "lat": 30.00361,
+    "lng": -95.38962,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "ALDINE ISD"
+  },
+  "shelbyville.k12.il.us": {
+    "lat": 39.40636,
+    "lng": -88.80175,
+    "city": "Shelbyville",
+    "state": "IL",
+    "name": "Shelbyville CUSD 4"
+  },
+  "waukesha.k12.wi.us": {
+    "lat": 43.01617,
+    "lng": -88.24085,
+    "city": "Waukesha",
+    "state": "WI",
+    "name": "Waukesha School District"
+  },
+  "parkhill.k12.mo.us": {
+    "lat": 39.24654,
+    "lng": -94.67251,
+    "city": "KANSAS CITY",
+    "state": "MO",
+    "name": "PARK HILL"
+  },
+  "menifeeusd.org": {
+    "lat": 33.68795,
+    "lng": -117.17588,
+    "city": "Menifee",
+    "state": "CA",
+    "name": "Menifee Union"
+  },
+  "yadkin.k12.nc.us": {
+    "lat": 36.13591,
+    "lng": -80.66947,
+    "city": "Yadkinville",
+    "state": "NC",
+    "name": "Yadkin County Schools"
+  },
+  "springboro.org": {
+    "lat": 39.53365,
+    "lng": -84.2428,
+    "city": "Springboro",
+    "state": "OH",
+    "name": "Springboro Community City"
+  },
+  "clayton.k12.ga.us": {
+    "lat": 33.53643,
+    "lng": -84.35715,
+    "city": "Jonesboro",
+    "state": "GA",
+    "name": "Clayton County"
+  },
+  "muscogee.k12.ga.us": {
+    "lat": 32.47758,
+    "lng": -84.94661,
+    "city": "Columbus",
+    "state": "GA",
+    "name": "Muscogee County"
+  },
+  "greenville.k12.sc.us": {
+    "lat": 34.84408,
+    "lng": -82.39599,
+    "city": "Greenville",
+    "state": "SC",
+    "name": "Greenville 01"
+  },
+  "hudsoncsd.org": {
+    "lat": 42.25981,
+    "lng": -73.77238,
+    "city": "HUDSON",
+    "state": "NY",
+    "name": "HUDSON CITY SCHOOL DISTRICT"
+  },
+  "sylvan.k12.ca.us": {
+    "lat": 37.68945,
+    "lng": -120.98565,
+    "city": "Modesto",
+    "state": "CA",
+    "name": "Sylvan Union Elementary"
+  },
+  "mpusd.k12.ca.us": {
+    "lat": 37.76023,
+    "lng": -122.16345,
+    "city": "Oakland",
+    "state": "CA",
+    "name": "LPS Oakland R & D Campus District"
+  },
+  "evansville.k12.wi.us": {
+    "lat": 42.77322,
+    "lng": -89.30784,
+    "city": "Evansville",
+    "state": "WI",
+    "name": "Evansville Community School District"
+  },
+  "magnoliaisd.org": {
+    "lat": 30.19703,
+    "lng": -95.75348,
+    "city": "MAGNOLIA",
+    "state": "TX",
+    "name": "MAGNOLIA ISD"
+  },
+  "chisholm.k12.ok.us": {
+    "lat": 36.43736,
+    "lng": -97.86952,
+    "city": "Enid",
+    "state": "OK",
+    "name": "CHISHOLM"
+  },
+  "argyleisd.com": {
+    "lat": 33.07191,
+    "lng": -97.21196,
+    "city": "FLOWER MOUND",
+    "state": "TX",
+    "name": "ARGYLE ISD"
+  },
+  "wacoisd.org": {
+    "lat": 31.55593,
+    "lng": -97.13125,
+    "city": "WACO",
+    "state": "TX",
+    "name": "WACO ISD"
+  },
+  "milwaukee.k12.wi.us": {
+    "lat": 43.04849,
+    "lng": -87.97967,
+    "city": "Milwaukee",
+    "state": "WI",
+    "name": "Milwaukee School District"
+  },
+  "mesquiteisd.org": {
+    "lat": 32.81715,
+    "lng": -96.63144,
+    "city": "MESQUITE",
+    "state": "TX",
+    "name": "MESQUITE ISD"
+  },
+  "hesperiausd.org": {
+    "lat": 34.42524,
+    "lng": -117.32236,
+    "city": "Hesperia",
+    "state": "CA",
+    "name": "Hesperia Unified"
+  },
+  "easton.wednet.edu": {
+    "lat": 47.23665,
+    "lng": -121.17677,
+    "city": "EASTON",
+    "state": "WA",
+    "name": "Easton School District"
+  },
+  "stjohns.k12.fl.us": {
+    "lat": 29.89787,
+    "lng": -81.31588,
+    "city": "ST AUGUSTINE",
+    "state": "FL",
+    "name": "ST. JOHNS"
+  },
+  "lawrence.k12.ma.us": {
+    "lat": 42.70801,
+    "lng": -71.15994,
+    "city": "Lawrence",
+    "state": "MA",
+    "name": "Lawrence"
+  },
+  "northernpottersd.org": {
+    "lat": 41.9248,
+    "lng": -77.73764,
+    "city": "Ulysses",
+    "state": "PA",
+    "name": "Northern Potter SD"
+  },
+  "paulding.k12.ga.us": {
+    "lat": 33.90939,
+    "lng": -84.78826,
+    "city": "Dallas",
+    "state": "GA",
+    "name": "Paulding County"
+  },
+  "beaufort.k12.sc.us": {
+    "lat": 32.35341,
+    "lng": -80.92167,
+    "city": "Ridgeland",
+    "state": "SC",
+    "name": "Beaufort 80"
+  },
+  "greene.k12.nc.us": {
+    "lat": 35.45318,
+    "lng": -77.68547,
+    "city": "Snow Hill",
+    "state": "NC",
+    "name": "Greene County Schools"
+  },
+  "kennett.k12.mo.us": {
+    "lat": 36.24094,
+    "lng": -90.05481,
+    "city": "KENNETT",
+    "state": "MO",
+    "name": "KENNETT 39"
+  },
+  "springbranchisd.com": {
+    "lat": 29.78245,
+    "lng": -95.51457,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "SPRING BRANCH ISD"
+  },
+  "hydroeakly.k12.ok.us": {
+    "lat": 35.5522,
+    "lng": -98.57197,
+    "city": "Hydro",
+    "state": "OK",
+    "name": "HYDRO-EAKLY"
+  },
+  "tylerisd.org": {
+    "lat": 32.32836,
+    "lng": -95.31518,
+    "city": "TYLER",
+    "state": "TX",
+    "name": "TYLER ISD"
+  },
+  "spooner.k12.wi.us": {
+    "lat": 45.84206,
+    "lng": -91.89615,
+    "city": "Spooner",
+    "state": "WI",
+    "name": "Spooner Area School District"
+  },
+  "central.k12.ca.us": {
+    "lat": 36.80138,
+    "lng": -119.89236,
+    "city": "Fresno",
+    "state": "CA",
+    "name": "Central Unified"
+  },
+  "hampton.k12.va.us": {
+    "lat": 37.02529,
+    "lng": -76.34818,
+    "city": "Hampton",
+    "state": "VA",
+    "name": "Hampton City Public Schools"
+  },
+  "clyde.k12.oh.us": {
+    "lat": 41.30498,
+    "lng": -82.97456,
+    "city": "Clyde",
+    "state": "OH",
+    "name": "Clyde-Green Springs Exempted Village"
+  },
+  "bayshore.k12.ny.us": {
+    "lat": 40.7324,
+    "lng": -73.25368,
+    "city": "BAY SHORE",
+    "state": "NY",
+    "name": "BAY SHORE UNION FREE SCHOOL DISTRICT"
+  },
+  "hilton.k12.ny.us": {
+    "lat": 43.287,
+    "lng": -77.8004,
+    "city": "HILTON",
+    "state": "NY",
+    "name": "HILTON CENTRAL SCHOOL DISTRICT"
+  },
+  "walton.k12.ga.us": {
+    "lat": 33.81768,
+    "lng": -83.73328,
+    "city": "Monroe",
+    "state": "GA",
+    "name": "Walton County"
+  },
+  "schuyler.k12.mo.us": {
+    "lat": 40.42222,
+    "lng": -92.56527,
+    "city": "QUEEN CITY",
+    "state": "MO",
+    "name": "SCHUYLER CO. R-I"
+  },
+  "azleisd.net": {
+    "lat": 32.89561,
+    "lng": -97.5431,
+    "city": "AZLE",
+    "state": "TX",
+    "name": "AZLE ISD"
+  },
+  "libertyhill.txed.net": {
+    "lat": 30.66689,
+    "lng": -97.92093,
+    "city": "LIBERTY HILL",
+    "state": "TX",
+    "name": "LIBERTY HILL ISD"
+  },
+  "fortbendisd.gov": {
+    "lat": 29.58887,
+    "lng": -95.62221,
+    "city": "SUGAR LAND",
+    "state": "TX",
+    "name": "FORT BEND ISD"
+  },
+  "marionisd.net": {
+    "lat": 29.56784,
+    "lng": -98.14124,
+    "city": "MARION",
+    "state": "TX",
+    "name": "MARION ISD"
+  },
+  "clevelandisd.org": {
+    "lat": 30.33905,
+    "lng": -95.06571,
+    "city": "CLEVELAND",
+    "state": "TX",
+    "name": "CLEVELAND ISD"
+  },
+  "killeenisd.org": {
+    "lat": 31.11599,
+    "lng": -97.71063,
+    "city": "KILLEEN",
+    "state": "TX",
+    "name": "KILLEEN ISD"
+  },
+  "leanderisd.org": {
+    "lat": 30.57766,
+    "lng": -97.85478,
+    "city": "LEANDER",
+    "state": "TX",
+    "name": "LEANDER ISD"
+  },
+  "stockbridge.k12.wi.us": {
+    "lat": 44.0741,
+    "lng": -88.2984,
+    "city": "Stockbridge",
+    "state": "WI",
+    "name": "Stockbridge School District"
+  },
+  "madison.k12.al.us": {
+    "lat": 34.68672,
+    "lng": -86.74574,
+    "city": "Madison",
+    "state": "AL",
+    "name": "Madison City"
+  },
+  "lucerne.k12.ca.us": {
+    "lat": 39.08392,
+    "lng": -122.78966,
+    "city": "Lucerne",
+    "state": "CA",
+    "name": "Lucerne Elementary"
+  },
+  "sangerusd.net": {
+    "lat": 36.70559,
+    "lng": -119.56357,
+    "city": "Sanger",
+    "state": "CA",
+    "name": "Sanger Unified"
+  },
+  "camden.k12.nj.us": {
+    "lat": 39.7837,
+    "lng": -75.06669,
+    "city": "BLACKWOODLEX",
+    "state": "NJ",
+    "name": "CAMDEN CO JDC"
+  },
+  "fairport.org": {
+    "lat": 43.09906,
+    "lng": -77.44492,
+    "city": "FAIRPORT",
+    "state": "NY",
+    "name": "FAIRPORT CENTRAL SCHOOL DISTRICT"
+  },
+  "dansville.org": {
+    "lat": 42.55341,
+    "lng": -84.30737,
+    "city": "DANSVILLE",
+    "state": "MI",
+    "name": "Dansville Schools"
+  },
+  "fannin.k12.ga.us": {
+    "lat": 34.87608,
+    "lng": -84.28302,
+    "city": "Blue Ridge",
+    "state": "GA",
+    "name": "Fannin County"
+  },
+  "houstonisd.org": {
+    "lat": 29.80251,
+    "lng": -95.45427,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "HOUSTON ISD"
+  },
+  "cabarrus.k12.nc.us": {
+    "lat": 35.38891,
+    "lng": -80.50647,
+    "city": "Concord",
+    "state": "NC",
+    "name": "Cabarrus County Schools"
+  },
+  "coppellisd.com": {
+    "lat": 32.96576,
+    "lng": -96.99305,
+    "city": "COPPELL",
+    "state": "TX",
+    "name": "COPPELL ISD"
+  },
+  "cooter.k12.mo.us": {
+    "lat": 36.04528,
+    "lng": -89.80639,
+    "city": "Cooter",
+    "state": "MO",
+    "name": "COOTER R-IV"
+  },
+  "midlandisd.net": {
+    "lat": 31.99614,
+    "lng": -102.08135,
+    "city": "MIDLAND",
+    "state": "TX",
+    "name": "MIDLAND ISD"
+  },
+  "springville.academy": {
+    "lat": 38.93386,
+    "lng": -86.61784,
+    "city": "Springville",
+    "state": "IN",
+    "name": "Springville Community Academy"
+  },
+  "newcastle.k12.ca.us": {
+    "lat": 38.8719,
+    "lng": -121.13864,
+    "city": "Newcastle",
+    "state": "CA",
+    "name": "Newcastle Elementary"
+  },
+  "columbus.k12.oh.us": {
+    "lat": 40.02937,
+    "lng": -82.93987,
+    "city": "Columbus",
+    "state": "OH",
+    "name": "KIPP Columbus"
+  },
+  "crowley.k12.tx.us": {
+    "lat": 32.60778,
+    "lng": -97.34718,
+    "city": "FORT WORTH",
+    "state": "TX",
+    "name": "CROWLEY ISD"
+  },
+  "huttoisd.net": {
+    "lat": 30.54508,
+    "lng": -97.54283,
+    "city": "HUTTO",
+    "state": "TX",
+    "name": "HUTTO ISD"
+  },
+  "esko.k12.mn.us": {
+    "lat": 46.70634,
+    "lng": -92.36236,
+    "city": "ESKO",
+    "state": "MN",
+    "name": "ESKO PUBLIC SCHOOL DISTRICT"
+  },
+  "montebello.k12.ca.us": {
+    "lat": 34.00911,
+    "lng": -118.1087,
+    "city": "Montebello",
+    "state": "CA",
+    "name": "Montebello Unified"
+  },
+  "memphis.edu": {
+    "lat": 35.13014,
+    "lng": -89.97567,
+    "city": "Memphis",
+    "state": "TN",
+    "name": "Memphis-Shelby County Schools"
+  },
+  "staffordmsd.org": {
+    "lat": 29.60135,
+    "lng": -95.54335,
+    "city": "STAFFORD",
+    "state": "TX",
+    "name": "STAFFORD MSD"
+  },
+  "eanesisd.net": {
+    "lat": 30.27823,
+    "lng": -97.81646,
+    "city": "AUSTIN",
+    "state": "TX",
+    "name": "EANES ISD"
+  },
+  "aliefisd.net": {
+    "lat": 29.71177,
+    "lng": -95.59681,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "ALIEF ISD"
+  },
+  "martinez.k12.ca.us": {
+    "lat": 38.01483,
+    "lng": -122.13249,
+    "city": "Martinez",
+    "state": "CA",
+    "name": "Martinez Unified"
+  },
+  "etiwanda.org": {
+    "lat": 34.14396,
+    "lng": -117.51407,
+    "city": "Etiwanda",
+    "state": "CA",
+    "name": "Etiwanda Elementary"
+  },
+  "tacoma.k12.wa.us": {
+    "lat": 47.25613,
+    "lng": -122.44566,
+    "city": "TACOMA",
+    "state": "WA",
+    "name": "Tacoma School District"
+  },
+  "gresham.k12.or.us": {
+    "lat": 45.50754,
+    "lng": -122.43671,
+    "city": "Gresham",
+    "state": "OR",
+    "name": "Gresham-Barlow SD 10J"
+  },
+  "soduscsd.org": {
+    "lat": 43.23022,
+    "lng": -77.05982,
+    "city": "SODUS",
+    "state": "NY",
+    "name": "SODUS CENTRAL SCHOOL DISTRICT"
+  },
+  "starmont.k12.ia.us": {
+    "lat": 42.68885,
+    "lng": -91.64819,
+    "city": "Arlington",
+    "state": "IA",
+    "name": "Starmont Comm School District"
+  },
+  "shermanisd.net": {
+    "lat": 33.66718,
+    "lng": -96.60532,
+    "city": "SHERMAN",
+    "state": "TX",
+    "name": "SHERMAN ISD"
+  },
+  "pontotoc.k12.ms.us": {
+    "lat": 34.25237,
+    "lng": -88.99773,
+    "city": "Pontotoc",
+    "state": "MS",
+    "name": "Pontotoc City School District"
+  },
+  "ripon.k12.wi.us": {
+    "lat": 43.82953,
+    "lng": -88.83661,
+    "city": "Ripon",
+    "state": "WI",
+    "name": "Ripon Area School District"
+  },
+  "tricreek.k12.in.us": {
+    "lat": 41.27048,
+    "lng": -87.43096,
+    "city": "Lowell",
+    "state": "IN",
+    "name": "Tri-Creek School Corporation"
+  },
+  "scalesmound.net": {
+    "lat": 42.47511,
+    "lng": -90.25079,
+    "city": "Scales Mound",
+    "state": "IL",
+    "name": "Scales Mound CUSD 211"
+  },
+  "englewoodcliffs.org": {
+    "lat": 40.87568,
+    "lng": -73.95606,
+    "city": "Englewood Cliffs",
+    "state": "NJ",
+    "name": "Englewood Cliffs School District"
+  },
+  "maranausd.org": {
+    "lat": 32.45311,
+    "lng": -111.20769,
+    "city": "MARANA",
+    "state": "AZ",
+    "name": "Marana Unified District (4404)"
+  },
+  "orangecsd.org": {
+    "lat": 41.45605,
+    "lng": -81.4508,
+    "city": "Cleveland",
+    "state": "OH",
+    "name": "Orange City"
+  },
+  "fairfield.k12.in.us": {
+    "lat": 41.51985,
+    "lng": -85.7691,
+    "city": "Goshen",
+    "state": "IN",
+    "name": "Fairfield Community Schools"
+  },
+  "katyisd.org": {
+    "lat": 29.7803,
+    "lng": -95.8327,
+    "city": "KATY",
+    "state": "TX",
+    "name": "KATY ISD"
+  },
+  "desotoisd.org": {
+    "lat": 32.58896,
+    "lng": -96.8553,
+    "city": "DESOTO",
+    "state": "TX",
+    "name": "DESOTO ISD"
+  },
+  "kleinisd.net": {
+    "lat": 30.04787,
+    "lng": -95.53325,
+    "city": "KLEIN",
+    "state": "TX",
+    "name": "KLEIN ISD"
+  },
+  "forneyisd.net": {
+    "lat": 32.74379,
+    "lng": -96.47657,
+    "city": "FORNEY",
+    "state": "TX",
+    "name": "FORNEY ISD"
+  },
+  "indianola.k12.ia.us": {
+    "lat": 41.35844,
+    "lng": -93.5448,
+    "city": "Indianola",
+    "state": "IA",
+    "name": "Indianola Comm School District"
+  },
+  "rochester.wednet.edu": {
+    "lat": 43.31589,
+    "lng": -70.97993,
+    "city": "Rochester",
+    "state": "NH",
+    "name": "Rochester School District"
+  },
+  "eatonville.wednet.edu": {
+    "lat": 46.87073,
+    "lng": -122.26846,
+    "city": "EATONVILLE",
+    "state": "WA",
+    "name": "Eatonville School District"
+  },
+  "randolph.k12.ma.us": {
+    "lat": 42.16231,
+    "lng": -71.0468,
+    "city": "Randolph",
+    "state": "MA",
+    "name": "Randolph"
+  },
+  "augusta.k12.va.us": {
+    "lat": 38.1929,
+    "lng": -79.01496,
+    "city": "Verona",
+    "state": "VA",
+    "name": "Augusta County Public Schools"
+  },
+  "bay.k12.fl.us": {
+    "lat": 30.17258,
+    "lng": -85.67605,
+    "city": "PANAMA CITY",
+    "state": "FL",
+    "name": "BAY"
+  },
+  "center.k12.mo.us": {
+    "lat": 38.97355,
+    "lng": -94.56808,
+    "city": "KANSAS CITY",
+    "state": "MO",
+    "name": "CENTER 58"
+  },
+  "humbleisd.net": {
+    "lat": 30.01288,
+    "lng": -95.26782,
+    "city": "HUMBLE",
+    "state": "TX",
+    "name": "HUMBLE ISD"
+  },
+  "brooklyn.k12.ia.us": {
+    "lat": 41.73839,
+    "lng": -92.44721,
+    "city": "Brooklyn",
+    "state": "IA",
+    "name": "Brooklyn-Guernsey-Malcom Comm School District"
+  },
+  "paramount.k12.ca.us": {
+    "lat": 33.89608,
+    "lng": -118.15846,
+    "city": "Paramount",
+    "state": "CA",
+    "name": "Paramount Unified"
+  },
+  "eaton.k12.oh.us": {
+    "lat": 39.76191,
+    "lng": -84.63311,
+    "city": "Eaton",
+    "state": "OH",
+    "name": "Eaton Community City"
+  },
+  "albany.k12.ny.us": {
+    "lat": 42.65307,
+    "lng": -73.75495,
+    "city": "ALBANY",
+    "state": "NY",
+    "name": "ALBANY CITY SCHOOL DISTRICT"
+  },
+  "osceola.k12.fl.us": {
+    "lat": 28.29887,
+    "lng": -81.36133,
+    "city": "KISSIMMEE",
+    "state": "FL",
+    "name": "OSCEOLA"
+  },
+  "chatham.k12.nc.us": {
+    "lat": 35.74285,
+    "lng": -79.47944,
+    "city": "Siler City",
+    "state": "NC",
+    "name": "Chatham Charter"
+  },
+  "paterson.k12.nj.us": {
+    "lat": 40.89354,
+    "lng": -74.15318,
+    "city": "Paterson",
+    "state": "NJ",
+    "name": "Paterson Public School District"
+  },
+  "liberty.k12.ga.us": {
+    "lat": 31.84976,
+    "lng": -81.59206,
+    "city": "Hinesville",
+    "state": "GA",
+    "name": "Liberty County"
+  },
+  "cortez.k12.co.us": {
+    "lat": 37.35304,
+    "lng": -108.58762,
+    "city": "CORTEZ",
+    "state": "CO",
+    "name": "Montezuma-Cortez School District No. Re-1"
+  },
+  "navasotaisd.org": {
+    "lat": 30.39131,
+    "lng": -96.0846,
+    "city": "NAVASOTA",
+    "state": "TX",
+    "name": "NAVASOTA ISD"
+  },
+  "homewood.k12.al.us": {
+    "lat": 33.47746,
+    "lng": -86.80551,
+    "city": "Homewood",
+    "state": "AL",
+    "name": "Homewood City"
+  },
+  "mishicot.k12.wi.us": {
+    "lat": 44.239,
+    "lng": -87.6334,
+    "city": "Mishicot",
+    "state": "WI",
+    "name": "Mishicot School District"
+  },
+  "friscoisd.org": {
+    "lat": 33.12463,
+    "lng": -96.79688,
+    "city": "FRISCO",
+    "state": "TX",
+    "name": "FRISCO ISD"
+  },
+  "rhinelander.k12.wi.us": {
+    "lat": 45.64813,
+    "lng": -89.4001,
+    "city": "Rhinelander",
+    "state": "WI",
+    "name": "Rhinelander School District"
+  },
+  "orlandusd.net": {
+    "lat": 39.7401,
+    "lng": -122.20123,
+    "city": "Orland",
+    "state": "CA",
+    "name": "Orland Joint Unified"
+  },
+  "lowndes.k12.ga.us": {
+    "lat": 30.83194,
+    "lng": -83.32275,
+    "city": "Valdosta",
+    "state": "GA",
+    "name": "Lowndes County"
+  },
+  "centralislip.k12.ny.us": {
+    "lat": 40.7931,
+    "lng": -73.2051,
+    "city": "CENTRAL ISLIP",
+    "state": "NY",
+    "name": "CENTRAL ISLIP UNION FREE SCHOOL DISTRICT"
+  },
+  "genevacsd.org": {
+    "lat": 42.8773,
+    "lng": -76.9961,
+    "city": "GENEVA",
+    "state": "NY",
+    "name": "GENEVA CITY SCHOOL DISTRICT"
+  },
+  "hendersonisd.org": {
+    "lat": 32.18702,
+    "lng": -94.7968,
+    "city": "HENDERSON",
+    "state": "TX",
+    "name": "HENDERSON ISD"
+  },
+  "allenisd.org": {
+    "lat": 33.08519,
+    "lng": -96.66416,
+    "city": "ALLEN",
+    "state": "TX",
+    "name": "ALLEN ISD"
+  },
+  "galenaparkisd.com": {
+    "lat": 29.79271,
+    "lng": -95.16072,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "GALENA PARK ISD"
+  },
+  "dallasisd.org": {
+    "lat": 32.87655,
+    "lng": -96.76844,
+    "city": "DALLAS",
+    "state": "TX",
+    "name": "DALLAS ISD"
+  },
+  "austinisd.org": {
+    "lat": 30.21859,
+    "lng": -97.75338,
+    "city": "AUSTIN",
+    "state": "TX",
+    "name": "AUSTIN ISD"
+  },
+  "fitchburg.k12.ma.us": {
+    "lat": 42.57138,
+    "lng": -71.79662,
+    "city": "Fitchburg",
+    "state": "MA",
+    "name": "Fitchburg"
+  },
+  "burke.k12.nc.us": {
+    "lat": 35.72614,
+    "lng": -81.64917,
+    "city": "Morganton",
+    "state": "NC",
+    "name": "Burke County Schools"
+  },
+  "haddonfield.k12.nj.us": {
+    "lat": 39.9024,
+    "lng": -75.03101,
+    "city": "Haddonfield",
+    "state": "NJ",
+    "name": "Haddonfield School District"
+  },
+  "broctoncsd.org": {
+    "lat": 42.3831,
+    "lng": -79.4523,
+    "city": "BROCTON",
+    "state": "NY",
+    "name": "BROCTON CENTRAL SCHOOL DISTRICT"
+  },
+  "clearfield.org": {
+    "lat": 40.99282,
+    "lng": -78.48274,
+    "city": "Clearfield",
+    "state": "PA",
+    "name": "Clearfield Area SD"
+  },
+  "marion.k12.fl.us": {
+    "lat": 29.18462,
+    "lng": -82.11543,
+    "city": "OCALA",
+    "state": "FL",
+    "name": "MARION"
+  },
+  "madison.k12.ga.us": {
+    "lat": 34.11929,
+    "lng": -83.20858,
+    "city": "Danielsville",
+    "state": "GA",
+    "name": "Madison County"
+  },
+  "boerneisd.net": {
+    "lat": 29.79498,
+    "lng": -98.73646,
+    "city": "BOERNE",
+    "state": "TX",
+    "name": "BOERNE ISD"
+  },
+  "philasd.org": {
+    "lat": 40.23442,
+    "lng": -76.92508,
+    "city": "Camp Hill",
+    "state": "PA",
+    "name": "Camp Hill SD"
+  },
+  "sheldonisd.com": {
+    "lat": 29.887,
+    "lng": -95.2087,
+    "city": "HOUSTON",
+    "state": "TX",
+    "name": "SHELDON ISD"
+  },
+  "brownwoodisd.org": {
+    "lat": 31.69096,
+    "lng": -98.97292,
+    "city": "BROWNWOOD",
+    "state": "TX",
+    "name": "BROWNWOOD ISD"
+  },
+  "amaisd.org": {
+    "lat": 29.55859,
+    "lng": -95.78642,
+    "city": "ROSENBERG",
+    "state": "TX",
+    "name": "LAMAR CISD"
+  },
+  "lincoln.k12.mt.us": {
+    "lat": 48.39146,
+    "lng": -115.55422,
+    "city": "Libby",
+    "state": "MT",
+    "name": "Lincoln"
+  },
+  "auburn.wednet.edu": {
+    "lat": 47.31199,
+    "lng": -122.21716,
+    "city": "AUBURN",
+    "state": "WA",
+    "name": "Auburn School District"
+  },
+  "stocktonusd.org": {
+    "lat": 37.95103,
+    "lng": -121.2969,
+    "city": "Stockton",
+    "state": "CA",
+    "name": "Stockton Unified"
+  },
+  "kalama.k12.wa.us": {
+    "lat": 46.00795,
+    "lng": -122.83885,
+    "city": "KALAMA",
+    "state": "WA",
+    "name": "Kalama School District"
+  },
+  "rocklinusd.org": {
+    "lat": 38.79266,
+    "lng": -121.22169,
+    "city": "Rocklin",
+    "state": "CA",
+    "name": "Rocklin Unified"
+  },
+  "zanesville.k12.oh.us": {
+    "lat": 39.9236,
+    "lng": -82.00491,
+    "city": "Zanesville",
+    "state": "OH",
+    "name": "Zanesville City"
+  },
+  "nassau.k12.fl.us": {
+    "lat": 30.67201,
+    "lng": -81.45443,
+    "city": "FERNANDINA BEACH",
+    "state": "FL",
+    "name": "NASSAU"
+  },
+  "waterloocsd.org": {
+    "lat": 42.89677,
+    "lng": -76.86149,
+    "city": "WATERLOO",
+    "state": "NY",
+    "name": "WATERLOO CENTRAL SCHOOL DISTRICT"
+  },
+  "peabody.k12.ma.us": {
+    "lat": 42.52654,
+    "lng": -70.92833,
+    "city": "Peabody",
+    "state": "MA",
+    "name": "Peabody"
+  },
+  "henrico.k12.va.us": {
+    "lat": 37.54328,
+    "lng": -77.38221,
+    "city": "Henrico",
+    "state": "VA",
+    "name": "Henrico County Public Schools"
+  },
+  "granger.txed.net": {
+    "lat": 30.72067,
+    "lng": -97.43686,
+    "city": "GRANGER",
+    "state": "TX",
+    "name": "GRANGER ISD"
+  },
+  "gilbert.k12.ia.us": {
+    "lat": 42.10721,
+    "lng": -93.64167,
+    "city": "Gilbert",
+    "state": "IA",
+    "name": "Gilbert Comm School District"
+  },
+  "judsonisd.org": {
+    "lat": 29.55308,
+    "lng": -98.32942,
+    "city": "SAN ANTONIO",
+    "state": "TX",
+    "name": "JUDSON ISD"
+  },
+  "davenport.k12.ia.us": {
+    "lat": 41.53717,
+    "lng": -90.57671,
+    "city": "Davenport",
+    "state": "IA",
+    "name": "Davenport Comm School District"
+  },
+  "waupun.k12.wi.us": {
+    "lat": 43.63036,
+    "lng": -88.71847,
+    "city": "Waupun",
+    "state": "WI",
+    "name": "Waupun School District"
+  },
+  "elsegundo.org": {
+    "lat": 33.91797,
+    "lng": -118.38425,
+    "city": "El Segundo",
+    "state": "CA",
+    "name": "Wiseburn Unified"
+  },
+  "castaicusd.com": {
+    "lat": 34.44112,
+    "lng": -118.62674,
+    "city": "Valencia",
+    "state": "CA",
+    "name": "Castaic Union"
+  },
+  "redfordu.k12.mi.us": {
+    "lat": 42.41985,
+    "lng": -83.28881,
+    "city": "REDFORD",
+    "state": "MI",
+    "name": "Redford Union Schools District No. 1"
+  },
+  "wayne.k12.ga.us": {
+    "lat": 31.61342,
+    "lng": -81.88742,
+    "city": "Jesup",
+    "state": "GA",
+    "name": "Wayne County"
+  },
+  "mcdowell.k12.nc.us": {
+    "lat": 35.67962,
+    "lng": -82.00693,
+    "city": "Marion",
+    "state": "NC",
+    "name": "McDowell County Schools"
+  },
+  "elkhart.k12.in.us": {
+    "lat": 41.68505,
+    "lng": -85.95903,
+    "city": "Elkhart",
+    "state": "IN",
+    "name": "Excel Center - Elkhart"
+  },
+  "sayre.k12.ok.us": {
+    "lat": 35.3096,
+    "lng": -99.63451,
+    "city": "Sayre",
+    "state": "OK",
+    "name": "SAYRE"
+  },
+  "blancoisd.org": {
+    "lat": 30.10535,
+    "lng": -98.42176,
+    "city": "BLANCO",
+    "state": "TX",
+    "name": "BLANCO ISD"
+  },
+  "tumwater.k12.wa.us": {
+    "lat": 47.00678,
+    "lng": -122.91213,
+    "city": "TUMWATER",
+    "state": "WA",
+    "name": "Tumwater School District"
+  },
+  "cusick.wednet.edu": {
+    "lat": 48.337,
+    "lng": -117.2988,
+    "city": "CUSICK",
+    "state": "WA",
+    "name": "Cusick School District"
+  },
+  "rhinebeckcsd.org": {
+    "lat": 41.9256,
+    "lng": -73.9004,
+    "city": "RHINEBECK",
+    "state": "NY",
+    "name": "RHINEBECK CENTRAL SCHOOL DISTRICT"
+  },
+  "watertown.k12.ma.us": {
+    "lat": 42.36933,
+    "lng": -71.17944,
+    "city": "Watertown",
+    "state": "MA",
+    "name": "Watertown"
+  },
+  "riverbank.charter.k12.nj.us": {
+    "lat": 40.11557,
+    "lng": -74.78363,
+    "city": "Roebling",
+    "state": "NJ",
+    "name": "Riverbank Charter School of Excellence"
+  },
+  "redclay.k12.de.us": {
+    "lat": 39.7443,
+    "lng": -75.5996,
+    "city": "Wilmington",
+    "state": "DE",
+    "name": "Red Clay Consolidated School District"
+  },
+  "waterbury.k12.ct.us": {
+    "lat": 41.55475,
+    "lng": -73.04332,
+    "city": "Waterbury",
+    "state": "CT",
+    "name": "Waterbury School District"
+  },
+  "tsc.k12.in.us": {
+    "lat": 39.18374,
+    "lng": -87.39578,
+    "city": "Hymera",
+    "state": "IN",
+    "name": "Northeast School Corp"
+  },
+  "union.k12.in.us": {
+    "lat": 40.04706,
+    "lng": -85.14127,
+    "city": "Modoc",
+    "state": "IN",
+    "name": "Union School Corporation"
+  },
+  "aliceisd.net": {
+    "lat": 27.757,
+    "lng": -98.05264,
+    "city": "ALICE",
+    "state": "TX",
+    "name": "ALICE ISD"
+  },
+  "portage.k12.in.us": {
+    "lat": 41.55169,
+    "lng": -87.17241,
+    "city": "Portage",
+    "state": "IN",
+    "name": "Portage Township Schools"
+  },
+  "splendoraisd.org": {
+    "lat": 30.23388,
+    "lng": -95.15833,
+    "city": "SPLENDORA",
+    "state": "TX",
+    "name": "SPLENDORA ISD"
+  },
+  "volusia.k12.fl.us": {
+    "lat": 29.03018,
+    "lng": -81.30848,
+    "city": "DELAND",
+    "state": "FL",
+    "name": "VOLUSIA"
+  },
+  "martin.k12.nc.us": {
+    "lat": 35.84312,
+    "lng": -77.05334,
+    "city": "Williamston",
+    "state": "NC",
+    "name": "Martin County Schools"
+  },
+  "athensisd.net": {
+    "lat": 32.2033,
+    "lng": -95.85918,
+    "city": "ATHENS",
+    "state": "TX",
+    "name": "ATHENS ISD"
+  },
+  "lockhart.txed.net": {
+    "lat": 29.8873,
+    "lng": -97.67757,
+    "city": "LOCKHART",
+    "state": "TX",
+    "name": "LOCKHART ISD"
+  },
+  "lubbockisd.org": {
+    "lat": 33.57822,
+    "lng": -101.85444,
+    "city": "LUBBOCK",
+    "state": "TX",
+    "name": "LUBBOCK ISD"
+  },
+  "conroeisd.net": {
+    "lat": 30.32058,
+    "lng": -95.48605,
+    "city": "CONROE",
+    "state": "TX",
+    "name": "CONROE ISD"
+  },
+  "harrison.k12.ms.us": {
+    "lat": 30.44413,
+    "lng": -89.09765,
+    "city": "GULFPORT",
+    "state": "MS",
+    "name": "Harrison County School District"
+  },
+  "delhiusd.org": {
+    "lat": 37.42995,
+    "lng": -120.77872,
+    "city": "Delhi",
+    "state": "CA",
+    "name": "Delhi Unified"
+  },
+  "ashland.edu": {
+    "lat": 40.87356,
+    "lng": -82.31327,
+    "city": "Ashland",
+    "state": "OH",
+    "name": "Ashland County Community Academy"
+  },
+  "wallkillcsd.k12.ny.us": {
+    "lat": 41.60485,
+    "lng": -74.16804,
+    "city": "WALLKILL",
+    "state": "NY",
+    "name": "WALLKILL CENTRAL SCHOOL DISTRICT"
+  },
+  "charleston.k12.sc.us": {
+    "lat": 32.7879,
+    "lng": -79.93075,
+    "city": "Charleston",
+    "state": "SC",
+    "name": "Charleston 01"
+  },
+  "krumisd.net": {
+    "lat": 33.26626,
+    "lng": -97.228,
+    "city": "KRUM",
+    "state": "TX",
+    "name": "KRUM ISD"
+  },
+  "seguin.k12.tx.us": {
+    "lat": 29.58032,
+    "lng": -97.94769,
+    "city": "SEGUIN",
+    "state": "TX",
+    "name": "SEGUIN ISD"
+  },
+  "gilpin.k12.co.us": {
+    "lat": 39.83333,
+    "lng": -105.52028,
+    "city": "BLACK HAWK",
+    "state": "CO",
+    "name": "Gilpin County School District No. Re-1"
+  },
+  "cloverpark.k12.wa.us": {
+    "lat": 47.15913,
+    "lng": -122.51953,
+    "city": "LAKEWOOD",
+    "state": "WA",
+    "name": "Clover Park School District"
+  },
+  "ceres.k12.ca.us": {
+    "lat": 37.59062,
+    "lng": -120.94945,
+    "city": "Ceres",
+    "state": "CA",
+    "name": "Ceres Unified"
+  },
+  "lumberton.k12.nj.us": {
+    "lat": 39.96526,
+    "lng": -74.79935,
+    "city": "Lumberton",
+    "state": "NJ",
+    "name": "Lumberton Township Board of Education"
+  },
+  "pearlriver.org": {
+    "lat": 41.06896,
+    "lng": -74.02764,
+    "city": "PEARL RIVER",
+    "state": "NY",
+    "name": "PEARL RIVER UNION FREE SCHOOL DISTRICT"
+  },
+  "dedham.k12.ma.us": {
+    "lat": 42.24531,
+    "lng": -71.16268,
+    "city": "Dedham",
+    "state": "MA",
+    "name": "Dedham"
+  },
+  "sunnyvaleisd.com": {
+    "lat": 32.79496,
+    "lng": -96.55786,
+    "city": "SUNNYVALE",
+    "state": "TX",
+    "name": "SUNNYVALE ISD"
+  },
+  "bryanisd.org": {
+    "lat": 30.66286,
+    "lng": -96.36752,
+    "city": "BRYAN",
+    "state": "TX",
+    "name": "BRYAN ISD"
+  },
+  "eagle-grove.k12.ia.us": {
+    "lat": 42.66703,
+    "lng": -93.90506,
+    "city": "Eagle Grove",
+    "state": "IA",
+    "name": "Eagle Grove Comm School District"
+  },
+  "everett.k12.ma.us": {
+    "lat": 42.40358,
+    "lng": -71.04708,
+    "city": "Everett",
+    "state": "MA",
+    "name": "Everett"
+  },
+  "bozrah.org": {
+    "lat": 41.5635,
+    "lng": -72.1536,
+    "city": "Bozrah",
+    "state": "CT",
+    "name": "Bozrah School District"
+  },
+  "pavilioncsd.org": {
+    "lat": 42.87195,
+    "lng": -78.0184,
+    "city": "PAVILION",
+    "state": "NY",
+    "name": "PAVILION CENTRAL SCHOOL DISTRICT"
+  },
+  "sampson.k12.nc.us": {
+    "lat": 34.9785,
+    "lng": -78.29597,
+    "city": "Clinton",
+    "state": "NC",
+    "name": "Sampson County Schools"
+  },
+  "roundrockisd.org": {
+    "lat": 30.51146,
+    "lng": -97.69702,
+    "city": "ROUND ROCK",
+    "state": "TX",
+    "name": "ROUND ROCK ISD"
+  },
+  "waynesville.k12.mo.us": {
+    "lat": 37.81921,
+    "lng": -92.21889,
+    "city": "WAYNESVILLE",
+    "state": "MO",
+    "name": "WAYNESVILLE R-VI"
+  },
+  "velma-alma.k12.ok.us": {
+    "lat": 34.45287,
+    "lng": -97.67042,
+    "city": "Velma",
+    "state": "OK",
+    "name": "VELMA-ALMA"
+  },
+  "maderausd.org": {
+    "lat": 36.9521,
+    "lng": -120.08145,
+    "city": "Madera",
+    "state": "CA",
+    "name": "Madera Unified"
+  },
+  "tahomasd.us": {
+    "lat": 47.37106,
+    "lng": -122.02219,
+    "city": "MAPLE VALLEY",
+    "state": "WA",
+    "name": "Tahoma School District"
+  },
+  "chelmsford.k12.ma.us": {
+    "lat": 42.61738,
+    "lng": -71.36539,
+    "city": "Chelmsford",
+    "state": "MA",
+    "name": "Chelmsford"
+  },
+  "wethersfield.me": {
+    "lat": 41.72611,
+    "lng": -72.6723,
+    "city": "Wethersfield",
+    "state": "CT",
+    "name": "Unified School District #1"
+  },
+  "stafford.k12.ct.us": {
+    "lat": 41.97001,
+    "lng": -72.30245,
+    "city": "Stafford Springs",
+    "state": "CT",
+    "name": "Stafford School District"
+  },
+  "clarke.k12.ga.us": {
+    "lat": 33.96035,
+    "lng": -83.38722,
+    "city": "Athens",
+    "state": "GA",
+    "name": "Clarke County"
+  },
+  "rockdale.k12.ga.us": {
+    "lat": 33.66856,
+    "lng": -84.0152,
+    "city": "Conyers",
+    "state": "GA",
+    "name": "Rockdale County"
+  },
+  "brazosportisd.net": {
+    "lat": 29.02437,
+    "lng": -95.4153,
+    "city": "CLUTE",
+    "state": "TX",
+    "name": "BRAZOSPORT ISD"
+  },
+  "bayfield.k12.co.us": {
+    "lat": 37.23116,
+    "lng": -107.59063,
+    "city": "BAYFIELD",
+    "state": "CO",
+    "name": "Bayfield School District No. 10Jt-R"
+  },
+  "muskegonisd.org": {
+    "lat": 43.24081,
+    "lng": -86.20308,
+    "city": "MUSKEGON",
+    "state": "MI",
+    "name": "Muskegon Area ISD"
+  },
+  "york.k12.sc.us": {
+    "lat": 34.98634,
+    "lng": -81.20266,
+    "city": "York",
+    "state": "SC",
+    "name": "York 01"
+  },
+  "bartow.k12.ga.us": {
+    "lat": 34.22329,
+    "lng": -84.8159,
+    "city": "Cartersville",
+    "state": "GA",
+    "name": "Bartow County"
+  },
+  "henry.k12.ga.us": {
+    "lat": 33.44843,
+    "lng": -84.13801,
+    "city": "McDonough",
+    "state": "GA",
+    "name": "Henry County"
+  },
+  "sudbury.k12.ma.us": {
+    "lat": 42.39267,
+    "lng": -71.44341,
+    "city": "Sudbury",
+    "state": "MA",
+    "name": "Sudbury"
+  },
+  "kent.edu": {
+    "lat": 41.15666,
+    "lng": -81.35582,
+    "city": "Kent",
+    "state": "OH",
+    "name": "Kent City"
+  },
+  "wickliffecsd.org": {
+    "lat": 41.60084,
+    "lng": -81.46526,
+    "city": "Wickliffe",
+    "state": "OH",
+    "name": "Wickliffe City"
+  },
+  "waynesboro.k12.va.us": {
+    "lat": 38.06859,
+    "lng": -78.89526,
+    "city": "Waynesboro",
+    "state": "VA",
+    "name": "Waynesboro City Public Schools"
+  },
+  "spiro.k12.ok.us": {
+    "lat": 35.24036,
+    "lng": -94.63144,
+    "city": "Spiro",
+    "state": "OK",
+    "name": "SPIRO"
+  },
+  "venusisd.net": {
+    "lat": 32.42738,
+    "lng": -97.09927,
+    "city": "VENUS",
+    "state": "TX",
+    "name": "VENUS ISD"
+  },
+  "newcaneyisd.org": {
+    "lat": 30.13339,
+    "lng": -95.22021,
+    "city": "NEW CANEY",
+    "state": "TX",
+    "name": "NEW CANEY ISD"
+  },
+  "springfield.k12.or.us": {
+    "lat": 44.04736,
+    "lng": -123.01758,
+    "city": "Springfield",
+    "state": "OR",
+    "name": "Springfield SD 19"
+  },
+  "greenvillecsd.org": {
+    "lat": 42.41537,
+    "lng": -74.02772,
+    "city": "GREENVILLE",
+    "state": "NY",
+    "name": "GREENVILLE CENTRAL SCHOOL DISTRICT"
+  },
+  "losbanosusd.net": {
+    "lat": 37.05265,
+    "lng": -120.83999,
+    "city": "Los Banos",
+    "state": "CA",
+    "name": "Los Banos Unified"
+  },
+  "springtownisd.net": {
+    "lat": 32.97098,
+    "lng": -97.68247,
+    "city": "SPRINGTOWN",
+    "state": "TX",
+    "name": "SPRINGTOWN ISD"
+  },
+  "spirit-lake.k12.ia.us": {
+    "lat": 43.41638,
+    "lng": -95.10131,
+    "city": "Spirit Lake",
+    "state": "IA",
+    "name": "Spirit Lake Comm School District"
+  },
+  "eurekausd.org": {
+    "lat": 38.73663,
+    "lng": -121.19935,
+    "city": "Granite Bay",
+    "state": "CA",
+    "name": "Eureka Union"
+  },
+  "piedmont.k12.ca.us": {
+    "lat": 37.82287,
+    "lng": -122.23375,
+    "city": "Piedmont",
+    "state": "CA",
+    "name": "Piedmont City Unified"
+  },
+  "parkridge.k12.nj.us": {
+    "lat": 41.03319,
+    "lng": -74.04292,
+    "city": "Park Ridge",
+    "state": "NJ",
+    "name": "Park Ridge School District"
+  },
+  "westwood.k12.ma.us": {
+    "lat": 42.21678,
+    "lng": -71.21633,
+    "city": "Westwood",
+    "state": "MA",
+    "name": "Westwood"
+  },
+  "chickasha.k12.ok.us": {
+    "lat": 35.05276,
+    "lng": -97.94476,
+    "city": "Chickasha",
+    "state": "OK",
+    "name": "CHICKASHA"
+  },
+  "nobl.k12.in.us": {
+    "lat": 40.04956,
+    "lng": -86.02914,
+    "city": "Noblesville",
+    "state": "IN",
+    "name": "Noblesville Schools"
+  },
+  "clover.k12.sc.us": {
+    "lat": 35.10817,
+    "lng": -81.21598,
+    "city": "Clover",
+    "state": "SC",
+    "name": "York 02"
+  },
+  "nasd.k12.pa.us": {
+    "lat": 40.32193,
+    "lng": -76.50958,
+    "city": "Annville",
+    "state": "PA",
+    "name": "Annville-Cleona SD"
+  },
+  "westerly.k12.ri.us": {
+    "lat": 41.37673,
+    "lng": -71.82183,
+    "city": "Westerly",
+    "state": "RI",
+    "name": "Westerly"
+  },
+  "davie.k12.nc.us": {
+    "lat": 35.87301,
+    "lng": -80.55369,
+    "city": "Mocksville",
+    "state": "NC",
+    "name": "Davie County Schools"
+  },
+  "santarosa.k12.fl.us": {
+    "lat": 30.60421,
+    "lng": -87.07215,
+    "city": "MILTON",
+    "state": "FL",
+    "name": "SANTA ROSA"
+  },
+  "janesville.k12.wi.us": {
+    "lat": 42.6748,
+    "lng": -89.0186,
+    "city": "Janesville",
+    "state": "WI",
+    "name": "Janesville School District"
+  },
+  "brodhead.k12.wi.us": {
+    "lat": 42.60616,
+    "lng": -89.384,
+    "city": "Brodhead",
+    "state": "WI",
+    "name": "Brodhead School District"
+  },
+  "cuba.k12.nm.us": {
+    "lat": 36.02707,
+    "lng": -106.94622,
+    "city": "CUBA",
+    "state": "NM",
+    "name": "CUBA"
+  },
+  "newarkcsd.org": {
+    "lat": 43.04611,
+    "lng": -77.09357,
+    "city": "NEWARK",
+    "state": "NY",
+    "name": "NEWARK CENTRAL SCHOOL DISTRICT"
+  },
+  "comsewogue.k12.ny.us": {
+    "lat": 40.9163,
+    "lng": -73.0692,
+    "city": "PORT JEFFERSON STATION",
+    "state": "NY",
+    "name": "BROOKHAVEN-COMSEWOGUE UNION FREE SCHOOL DISTRICT"
+  },
+  "haledon.org": {
+    "lat": 40.93228,
+    "lng": -74.18878,
+    "city": "Haledon",
+    "state": "NJ",
+    "name": "Haledon Public School District"
+  },
+  "pb.k12.mo.us": {
+    "lat": 36.49316,
+    "lng": -90.06648,
+    "city": "CAMPBELL",
+    "state": "MO",
+    "name": "CAMPBELL R-II"
+  },
+  "abileneisd.org": {
+    "lat": 32.451,
+    "lng": -99.73223,
+    "city": "ABILENE",
+    "state": "TX",
+    "name": "ABILENE ISD"
+  },
+  "hoover.k12.al.us": {
+    "lat": 33.40717,
+    "lng": -86.76608,
+    "city": "Hoover",
+    "state": "AL",
+    "name": "Hoover City"
+  },
+  "bridgeportisd.net": {
+    "lat": 33.22076,
+    "lng": -97.75209,
+    "city": "BRIDGEPORT",
+    "state": "TX",
+    "name": "BRIDGEPORT ISD"
+  },
+  "stone-corral.k12.ca.us": {
+    "lat": 36.48447,
+    "lng": -119.22392,
+    "city": "Visalia",
+    "state": "CA",
+    "name": "Stone Corral Elementary"
+  },
+  "mojave.k12.ca.us": {
+    "lat": 35.0496,
+    "lng": -118.18872,
+    "city": "Mojave",
+    "state": "CA",
+    "name": "Mojave Unified"
+  },
+  "cabrillo.k12.ca.us": {
+    "lat": 37.46357,
+    "lng": -122.43585,
+    "city": "Half Moon Bay",
+    "state": "CA",
+    "name": "Cabrillo Unified"
+  },
+  "ectorcountyisd.org": {
+    "lat": 31.85068,
+    "lng": -102.37433,
+    "city": "ODESSA",
+    "state": "TX",
+    "name": "ECTOR COUNTY ISD"
+  },
+  "rockingham.k12.va.us": {
+    "lat": 38.4667,
+    "lng": -78.85369,
+    "city": "Harrisonburg",
+    "state": "VA",
+    "name": "Rockingham County Public Schools"
+  },
+  "brooks.k12.ga.us": {
+    "lat": 30.79962,
+    "lng": -83.57631,
+    "city": "Quitman",
+    "state": "GA",
+    "name": "Brooks County"
+  },
+  "hurley.k12.wi.us": {
+    "lat": 46.45573,
+    "lng": -90.20354,
+    "city": "Hurley",
+    "state": "WI",
+    "name": "Hurley School District"
+  },
+  "sweetwaterisd.net": {
+    "lat": 32.47008,
+    "lng": -100.40032,
+    "city": "SWEETWATER",
+    "state": "TX",
+    "name": "SWEETWATER ISD"
+  },
+  "catoosa.k12.ok.us": {
+    "lat": 36.18402,
+    "lng": -95.7473,
+    "city": "Catoosa",
+    "state": "OK",
+    "name": "CATOOSA"
+  },
+  "fowler.k12.co.us": {
+    "lat": 38.126,
+    "lng": -104.03073,
+    "city": "FOWLER",
+    "state": "CO",
+    "name": "Fowler School District No. R4J"
+  },
+  "stocktonusd.net": {
+    "lat": 37.95103,
+    "lng": -121.2969,
+    "city": "Stockton",
+    "state": "CA",
+    "name": "Stockton Unified"
+  },
+  "putnam.k12.ga.us": {
+    "lat": 33.31245,
+    "lng": -83.3979,
+    "city": "Eatonton",
+    "state": "GA",
+    "name": "Putnam County"
+  },
+  "paoli.k12.in.us": {
+    "lat": 38.54973,
+    "lng": -86.47714,
+    "city": "Paoli",
+    "state": "IN",
+    "name": "Paoli Community School Corp"
+  },
+  "canadianisd.net": {
+    "lat": 35.90809,
+    "lng": -100.38227,
+    "city": "CANADIAN",
+    "state": "TX",
+    "name": "CANADIAN ISD"
+  },
+  "huntsville-isd.org": {
+    "lat": 30.74162,
+    "lng": -95.54024,
+    "city": "HUNTSVILLE",
+    "state": "TX",
+    "name": "HUNTSVILLE ISD"
+  },
+  "beau.k12.la.us": {
+    "lat": 30.84459,
+    "lng": -93.28794,
+    "city": "DeRidder",
+    "state": "LA",
+    "name": "Beauregard Parish"
+  },
+  "vacavilleusd.org": {
+    "lat": 38.36482,
+    "lng": -121.95386,
+    "city": "Vacaville",
+    "state": "CA",
+    "name": "Vacaville Unified"
+  },
+  "pender.k12.nc.us": {
+    "lat": 34.553,
+    "lng": -77.94064,
+    "city": "Burgaw",
+    "state": "NC",
+    "name": "Pender County Schools"
+  },
+  "easton.k12.ma.us": {
+    "lat": 42.05742,
+    "lng": -71.10813,
+    "city": "North Easton",
+    "state": "MA",
+    "name": "Easton"
+  },
+  "palmyra.k12.mo.us": {
+    "lat": 39.78477,
+    "lng": -91.52114,
+    "city": "PALMYRA",
+    "state": "MO",
+    "name": "PALMYRA R-I"
+  },
+  "greenecountycsd.net": {
+    "lat": 42.00191,
+    "lng": -94.37553,
+    "city": "Jefferson",
+    "state": "IA",
+    "name": "Greene County Comm School District"
+  },
+  "elginisd.net": {
+    "lat": 30.35222,
+    "lng": -97.37793,
+    "city": "ELGIN",
+    "state": "TX",
+    "name": "ELGIN ISD"
+  },
+  "redlake.k12.mn.us": {
+    "lat": 47.87851,
+    "lng": -95.01453,
+    "city": "RED LAKE",
+    "state": "MN",
+    "name": "RED LAKE PUBLIC SCHOOL DISTRICT"
+  },
+  "laferiaisd.org": {
+    "lat": 26.15798,
+    "lng": -97.82278,
+    "city": "LA FERIA",
+    "state": "TX",
+    "name": "LA FERIA ISD"
+  },
+  "wilsonisd.org": {
+    "lat": 33.31987,
+    "lng": -101.72934,
+    "city": "WILSON",
+    "state": "TX",
+    "name": "WILSON ISD"
+  },
+  "north-scott.k12.ia.us": {
+    "lat": 41.65235,
+    "lng": -90.5803,
+    "city": "Eldridge",
+    "state": "IA",
+    "name": "North Scott Comm School District"
+  },
+  "canton.k12.mo.us": {
+    "lat": 40.12891,
+    "lng": -91.51763,
+    "city": "CANTON",
+    "state": "MO",
+    "name": "CANTON R-V"
+  },
+  "hollandcsd.org": {
+    "lat": 42.64462,
+    "lng": -78.54087,
+    "city": "HOLLAND",
+    "state": "NY",
+    "name": "HOLLAND CENTRAL SCHOOL DISTRICT"
+  },
+  "sabineisd.org": {
+    "lat": 32.44625,
+    "lng": -94.95182,
+    "city": "GLADEWATER",
+    "state": "TX",
+    "name": "SABINE ISD"
+  },
+  "west-fargo.k12.nd.us": {
+    "lat": 46.87613,
+    "lng": -96.90224,
+    "city": "West Fargo",
+    "state": "ND",
+    "name": "WEST FARGO 6"
+  },
+  "camas.wednet.edu": {
+    "lat": 45.5956,
+    "lng": -122.40199,
+    "city": "CAMAS",
+    "state": "WA",
+    "name": "Camas School District"
+  },
+  "caney.com": {
+    "lat": 37.01747,
+    "lng": -95.92589,
+    "city": "Caney",
+    "state": "KS",
+    "name": "Caney Valley"
+  },
+  "bloomburgisd.net": {
+    "lat": 33.1352,
+    "lng": -94.06236,
+    "city": "BLOOMBURG",
+    "state": "TX",
+    "name": "BLOOMBURG ISD"
+  },
+  "tomballisd.net": {
+    "lat": 30.09516,
+    "lng": -95.61549,
+    "city": "TOMBALL",
+    "state": "TX",
+    "name": "TOMBALL ISD"
+  },
+  "murrieta.k12.ca.us": {
+    "lat": 33.52999,
+    "lng": -117.18548,
+    "city": "Murrieta",
+    "state": "CA",
+    "name": "Murrieta Valley Unified"
+  },
+  "montclair.edu": {
+    "lat": 40.81556,
+    "lng": -74.22175,
+    "city": "Montclair",
+    "state": "NJ",
+    "name": "Montclair Public School District"
+  },
+  "blandisd.org": {
+    "lat": 33.20982,
+    "lng": -96.29079,
+    "city": "FARMERSVILLE",
+    "state": "TX",
+    "name": "BLAND ISD"
+  },
+  "petroliacisd.org": {
+    "lat": 34.01089,
+    "lng": -98.22726,
+    "city": "PETROLIA",
+    "state": "TX",
+    "name": "PETROLIA CISD"
+  },
+  "owensboro.kyschools.us": {
+    "lat": 37.72809,
+    "lng": -87.0834,
+    "city": "Owensboro",
+    "state": "KY",
+    "name": "Daviess County"
+  },
+  "comalisd.org": {
+    "lat": 29.7049,
+    "lng": -98.089,
+    "city": "NEW BRAUNFELS",
+    "state": "TX",
+    "name": "COMAL ISD"
+  },
+  "munster.us": {
+    "lat": 41.55825,
+    "lng": -87.50159,
+    "city": "Munster",
+    "state": "IN",
+    "name": "School Town of Munster"
+  },
+  "chickasaw.k12.ms.us": {
+    "lat": 33.88747,
+    "lng": -88.99544,
+    "city": "Houston",
+    "state": "MS",
+    "name": "Chickasaw County School District"
+  },
+  "byers.k12.co.us": {
+    "lat": 39.70772,
+    "lng": -104.2174,
+    "city": "BYERS",
+    "state": "CO",
+    "name": "Byers School District No. 32J"
+  },
+  "pike.k12.in.us": {
+    "lat": 39.87872,
+    "lng": -86.25903,
+    "city": "Indianapolis",
+    "state": "IN",
+    "name": "MSD Pike Township"
+  },
+  "orangeusd.org": {
+    "lat": 36.6828,
+    "lng": -119.78087,
+    "city": "Fresno",
+    "state": "CA",
+    "name": "Orange Center"
+  },
+  "berkeley.net": {
+    "lat": 37.86944,
+    "lng": -122.28778,
+    "city": "Berkeley",
+    "state": "CA",
+    "name": "Berkeley Unified"
+  },
+  "clymercsd.org": {
+    "lat": 42.0216,
+    "lng": -79.62707,
+    "city": "CLYMER",
+    "state": "NY",
+    "name": "CLYMER CENTRAL SCHOOL DISTRICT"
+  },
+  "rochester.k12.mi.us": {
+    "lat": 42.67824,
+    "lng": -83.09582,
+    "city": "ROCHESTER HLS",
+    "state": "MI",
+    "name": "Rochester Community School District"
+  },
+  "forsyth.k12.ga.us": {
+    "lat": 34.23251,
+    "lng": -84.12353,
+    "city": "Cumming",
+    "state": "GA",
+    "name": "Forsyth County"
+  },
+  "needham.k12.ma.us": {
+    "lat": 42.28356,
+    "lng": -71.23565,
+    "city": "Needham",
+    "state": "MA",
+    "name": "Needham"
+  },
+  "avon.k12.ct.us": {
+    "lat": 41.8119,
+    "lng": -72.8298,
+    "city": "Avon",
+    "state": "CT",
+    "name": "Avon School District"
+  },
+  "powayusd.com": {
+    "lat": 32.99286,
+    "lng": -117.08221,
+    "city": "San Diego",
+    "state": "CA",
+    "name": "Poway Unified"
+  },
+  "lowndes.k12.ms.us": {
+    "lat": 33.46953,
+    "lng": -88.49311,
+    "city": "COLUMBUS",
+    "state": "MS",
+    "name": "Lowndes County School District"
+  },
+  "marion.kyschools.us": {
+    "lat": 37.3315,
+    "lng": -88.09272,
+    "city": "Marion",
+    "state": "KY",
+    "name": "Crittenden County"
+  },
+  "prosper-isd.net": {
+    "lat": 33.2388,
+    "lng": -96.79461,
+    "city": "PROSPER",
+    "state": "TX",
+    "name": "PROSPER ISD"
+  },
+  "reedpoint.k12.mt.us": {
+    "lat": 45.70567,
+    "lng": -109.54837,
+    "city": "Reed Point",
+    "state": "MT",
+    "name": "Reed Point H S"
+  },
+  "gardiner.org": {
+    "lat": 45.03178,
+    "lng": -110.7112,
+    "city": "Gardiner",
+    "state": "MT",
+    "name": "Gardiner Elem"
+  },
+  "seviersd.org": {
+    "lat": 38.77618,
+    "lng": -112.08149,
+    "city": "Richfield",
+    "state": "UT",
+    "name": "Sevier District"
+  },
+  "oswego.org": {
+    "lat": 43.4517,
+    "lng": -76.525,
+    "city": "OSWEGO",
+    "state": "NY",
+    "name": "OSWEGO CITY SCHOOL DISTRICT"
+  },
+  "mogadore.net": {
+    "lat": 41.06818,
+    "lng": -81.34522,
+    "city": "Mogadore",
+    "state": "OH",
+    "name": "Field Local"
+  },
+  "carver.org": {
+    "lat": 41.88744,
+    "lng": -70.76577,
+    "city": "Carver",
+    "state": "MA",
+    "name": "Carver"
+  },
+  "centralusd.k12.ca.us": {
+    "lat": 36.80138,
+    "lng": -119.89236,
+    "city": "Fresno",
+    "state": "CA",
+    "name": "Central Unified"
+  },
+  "siuslaw.k12.or.us": {
+    "lat": 43.98481,
+    "lng": -124.10425,
+    "city": "Florence",
+    "state": "OR",
+    "name": "Siuslaw SD 97J"
+  },
+  "lindsay.k12.ca.us": {
+    "lat": 36.20669,
+    "lng": -119.08844,
+    "city": "Lindsay",
+    "state": "CA",
+    "name": "Lindsay Unified"
+  },
+  "smithtown.k12.ny.us": {
+    "lat": 40.85445,
+    "lng": -73.19957,
+    "city": "SMITHTOWN",
+    "state": "NY",
+    "name": "SMITHTOWN CENTRAL SCHOOL DISTRICT"
+  },
+  "roscoe.k12.ny.us": {
+    "lat": 41.9346,
+    "lng": -74.9165,
+    "city": "ROSCOE",
+    "state": "NY",
+    "name": "ROSCOE CENTRAL SCHOOL DISTRICT"
+  },
+  "greatneck.k12.ny.us": {
+    "lat": 40.76534,
+    "lng": -73.70279,
+    "city": "GREAT NECK",
+    "state": "NY",
+    "name": "GREAT NECK UNION FREE SCHOOL DISTRICT"
+  },
+  "lyonscsd.org": {
+    "lat": 43.06454,
+    "lng": -76.98357,
+    "city": "LYONS",
+    "state": "NY",
+    "name": "LYONS CENTRAL SCHOOL DISTRICT"
+  },
+  "nelson.k12.va.us": {
+    "lat": 37.75999,
+    "lng": -78.869,
+    "city": "Lovingston",
+    "state": "VA",
+    "name": "Nelson County Public Schools"
+  },
+  "walton.k12.fl.us": {
+    "lat": 30.721,
+    "lng": -86.09869,
+    "city": "DEFUNIAK SPRINGS",
+    "state": "FL",
+    "name": "WALTON"
+  },
+  "alvordisd.net": {
+    "lat": 33.35928,
+    "lng": -97.70068,
+    "city": "ALVORD",
+    "state": "TX",
+    "name": "ALVORD ISD"
+  },
+  "marshalltown.k12.ia.us": {
+    "lat": 42.03639,
+    "lng": -92.90729,
+    "city": "Marshalltown",
+    "state": "IA",
+    "name": "Marshalltown Comm School District"
+  },
+  "lemarscsd.org": {
+    "lat": 42.78106,
+    "lng": -96.1805,
+    "city": "Le Mars",
+    "state": "IA",
+    "name": "Le Mars Comm School District"
+  },
+  "prescott.k12.wi.us": {
+    "lat": 44.75699,
+    "lng": -92.78919,
+    "city": "Prescott",
+    "state": "WI",
+    "name": "Prescott School District"
+  },
+  "mercedcsd.org": {
+    "lat": 37.29776,
+    "lng": -120.48852,
+    "city": "Merced",
+    "state": "CA",
+    "name": "Merced County ROP"
+  },
+  "bonita.k12.ca.us": {
+    "lat": 34.11791,
+    "lng": -117.80783,
+    "city": "San Dimas",
+    "state": "CA",
+    "name": "Bonita Unified"
+  },
+  "pickens.k12.sc.us": {
+    "lat": 34.84031,
+    "lng": -82.66758,
+    "city": "Easley",
+    "state": "SC",
+    "name": "Pickens 01"
+  },
+  "greececsd.org": {
+    "lat": 43.22548,
+    "lng": -77.66293,
+    "city": "ROCHESTER",
+    "state": "NY",
+    "name": "GREECE CENTRAL SCHOOL DISTRICT"
+  },
+  "berea.kyschools.us": {
+    "lat": 37.57742,
+    "lng": -84.29456,
+    "city": "Berea",
+    "state": "KY",
+    "name": "Berea Independent"
+  },
+  "gaston.k12.nc.us": {
+    "lat": 35.25064,
+    "lng": -81.17754,
+    "city": "Gastonia",
+    "state": "NC",
+    "name": "Gaston County Schools"
+  },
+  "newtown.k12.ct.us": {
+    "lat": 41.40076,
+    "lng": -73.28541,
+    "city": "Newtown",
+    "state": "CT",
+    "name": "Newtown School District"
+  },
+  "bladen.k12.nc.us": {
+    "lat": 34.59956,
+    "lng": -78.57247,
+    "city": "Elizabethtown",
+    "state": "NC",
+    "name": "Emereau: Bladen"
+  },
+  "orcas.k12.wa.us": {
+    "lat": 48.69913,
+    "lng": -122.90292,
+    "city": "EASTSOUND",
+    "state": "WA",
+    "name": "Orcas Island School District"
+  },
+  "trotwood.k12.oh.us": {
+    "lat": 39.79967,
+    "lng": -84.32777,
+    "city": "Trotwood",
+    "state": "OH",
+    "name": "Trotwood-Madison City"
+  },
+  "cook.k12.ga.us": {
+    "lat": 31.13326,
+    "lng": -83.38025,
+    "city": "Adel",
+    "state": "GA",
+    "name": "Cook County"
+  },
+  "aubreyisd.net": {
+    "lat": 33.30624,
+    "lng": -96.98124,
+    "city": "AUBREY",
+    "state": "TX",
+    "name": "AUBREY ISD"
+  },
+  "newaygo.net": {
+    "lat": 43.41172,
+    "lng": -85.80028,
+    "city": "NEWAYGO",
+    "state": "MI",
+    "name": "Newaygo Public School District"
+  },
+  "almasd.net": {
+    "lat": 35.48972,
+    "lng": -94.21108,
+    "city": "Alma",
+    "state": "AR",
+    "name": "ALMA SCHOOL DISTRICT"
+  },
+  "huffmanisd.net": {
+    "lat": 30.02729,
+    "lng": -95.08767,
+    "city": "HUFFMAN",
+    "state": "TX",
+    "name": "HUFFMAN ISD"
+  },
+  "hoopeston.k12.il.us": {
+    "lat": 40.45822,
+    "lng": -87.66266,
+    "city": "Hoopeston",
+    "state": "IL",
+    "name": "Hoopeston Area CUSD 11"
+  },
+  "stanford.k12.mt.us": {
+    "lat": 47.14872,
+    "lng": -110.21844,
+    "city": "Stanford",
+    "state": "MT",
+    "name": "Stanford K-12 Schools"
+  },
+  "plainfield.k12.nj.us": {
+    "lat": 40.62641,
+    "lng": -74.43254,
+    "city": "North Plainfield",
+    "state": "NJ",
+    "name": "North Plainfield School District"
+  },
+  "davidson.k12.nc.us": {
+    "lat": 35.81777,
+    "lng": -80.1988,
+    "city": "Lexington",
+    "state": "NC",
+    "name": "Davidson County Schools"
+  },
+  "colby.k12.wi.us": {
+    "lat": 44.92027,
+    "lng": -90.31878,
+    "city": "Colby",
+    "state": "WI",
+    "name": "Colby School District"
+  },
+  "silsbeeisd.org": {
+    "lat": 30.34581,
+    "lng": -94.18471,
+    "city": "SILSBEE",
+    "state": "TX",
+    "name": "SILSBEE ISD"
+  },
+  "taneyville.k12.mo.us": {
+    "lat": 36.73763,
+    "lng": -93.03531,
+    "city": "TANEYVILLE",
+    "state": "MO",
+    "name": "TANEYVILLE R-II"
+  },
+  "georgetownisd.org": {
+    "lat": 30.63397,
+    "lng": -97.67247,
+    "city": "GEORGETOWN",
+    "state": "TX",
+    "name": "GEORGETOWN ISD"
+  },
+  "camden.k12.ga.us": {
+    "lat": 30.79794,
+    "lng": -81.68484,
+    "city": "Kingsland",
+    "state": "GA",
+    "name": "Camden County"
+  },
+  "eatontown.org": {
+    "lat": 40.29628,
+    "lng": -74.06524,
+    "city": "Eatontown",
+    "state": "NJ",
+    "name": "Eatontown Public School District"
+  },
+  "dickinsonisd.org": {
+    "lat": 29.45913,
+    "lng": -95.05666,
+    "city": "DICKINSON",
+    "state": "TX",
+    "name": "DICKINSON ISD"
+  },
+  "dilleyisd.net": {
+    "lat": 28.67488,
+    "lng": -99.17431,
+    "city": "DILLEY",
+    "state": "TX",
+    "name": "DILLEY ISD"
+  },
+  "nataliaisd.net": {
+    "lat": 29.18669,
+    "lng": -98.85514,
+    "city": "NATALIA",
+    "state": "TX",
+    "name": "NATALIA ISD"
+  },
+  "simivalleyusd.org": {
+    "lat": 34.28428,
+    "lng": -118.79992,
+    "city": "Simi Valley",
+    "state": "CA",
+    "name": "Simi Valley Unified"
+  },
+  "manorisd.net": {
+    "lat": 30.34472,
+    "lng": -97.57233,
+    "city": "MANOR",
+    "state": "TX",
+    "name": "MANOR ISD"
+  },
+  "orrick.k12.mo.us": {
+    "lat": 39.21322,
+    "lng": -94.12992,
+    "city": "ORRICK",
+    "state": "MO",
+    "name": "ORRICK R-XI"
+  },
+  "leonardisd.net": {
+    "lat": 33.38954,
+    "lng": -96.24124,
+    "city": "LEONARD",
+    "state": "TX",
+    "name": "LEONARD ISD"
+  },
+  "aca.k12.or.us": {
+    "lat": 45.29574,
+    "lng": -122.33319,
+    "city": "Estacada",
+    "state": "OR",
+    "name": "Estacada SD 108"
+  },
+  "pitman.k12.nj.us": {
+    "lat": 39.73474,
+    "lng": -75.1402,
+    "city": "Pitman",
+    "state": "NJ",
+    "name": "Pitman Boro School District"
+  },
+  "columbuscsd.org": {
+    "lat": 41.26905,
+    "lng": -91.36747,
+    "city": "Columbus Junction",
+    "state": "IA",
+    "name": "Columbus Comm School District"
+  },
+  "reading.k12.ma.us": {
+    "lat": 42.53588,
+    "lng": -71.11017,
+    "city": "Reading",
+    "state": "MA",
+    "name": "Reading"
+  },
+  "franklin.kyschools.us": {
+    "lat": 36.71492,
+    "lng": -86.57942,
+    "city": "Franklin",
+    "state": "KY",
+    "name": "Simpson County"
+  },
+  "kennesaw.edu": {
+    "lat": 34.02927,
+    "lng": -84.64019,
+    "city": "Kennesaw",
+    "state": "GA",
+    "name": "State Specialty Schools II- Northwest Classical Academy"
+  },
+  "lee.k12.nc.us": {
+    "lat": 35.48255,
+    "lng": -79.18013,
+    "city": "Sanford",
+    "state": "NC",
+    "name": "Lee County Schools"
+  },
+  "highlands.k12.fl.us": {
+    "lat": 27.50133,
+    "lng": -81.42042,
+    "city": "SEBRING",
+    "state": "FL",
+    "name": "HIGHLANDS"
+  },
+  "paducah.kyschools.us": {
+    "lat": 37.0389,
+    "lng": -88.66771,
+    "city": "Paducah",
+    "state": "KY",
+    "name": "McCracken County"
+  },
+  "northcape.k12.wi.us": {
+    "lat": 42.77956,
+    "lng": -88.06724,
+    "city": "Franksville",
+    "state": "WI",
+    "name": "North Cape School District"
+  },
+  "frankfort.kyschools.us": {
+    "lat": 38.05879,
+    "lng": -84.72786,
+    "city": "Frankfort",
+    "state": "KY",
+    "name": "Kentucky Tech System"
+  },
+  "kokomo.k12.in.us": {
+    "lat": 40.4853,
+    "lng": -86.1316,
+    "city": "Kokomo",
+    "state": "IN",
+    "name": "Excel Center - Kokomo"
+  },
+  "monroe.wednet.edu": {
+    "lat": 47.86425,
+    "lng": -121.99206,
+    "city": "Monroe",
+    "state": "WA",
+    "name": "Monroe School District"
+  },
+  "kerrvilleisd.net": {
+    "lat": 30.04569,
+    "lng": -99.13243,
+    "city": "KERRVILLE",
+    "state": "TX",
+    "name": "KERRVILLE ISD"
+  },
+  "potosisd.k12.wi.us": {
+    "lat": 42.69305,
+    "lng": -90.6949,
+    "city": "Potosi",
+    "state": "WI",
+    "name": "Potosi School District"
+  },
+  "cysd.k12.pa.us": {
+    "lat": 41.20158,
+    "lng": -76.78957,
+    "city": "Muncy",
+    "state": "PA",
+    "name": "Muncy SD"
+  },
+  "hayward.k12.wi.us": {
+    "lat": 46.00614,
+    "lng": -91.50254,
+    "city": "HAYWARD",
+    "state": "WI",
+    "name": "Hayward Community School District"
+  },
+  "garlandisd.net": {
+    "lat": 32.90868,
+    "lng": -96.68386,
+    "city": "GARLAND",
+    "state": "TX",
+    "name": "GARLAND ISD"
+  },
+  "tenino.k12.wa.us": {
+    "lat": 46.86147,
+    "lng": -122.84729,
+    "city": "TENINO",
+    "state": "WA",
+    "name": "Tenino School District"
+  },
+  "mot.k12.de.us": {
+    "lat": 39.42267,
+    "lng": -75.74024,
+    "city": "Middletown",
+    "state": "DE",
+    "name": "MOT Charter School"
+  },
+  "dunlapcusd.net": {
+    "lat": 40.85644,
+    "lng": -89.67758,
+    "city": "Dunlap",
+    "state": "IL",
+    "name": "Dunlap CUSD 323"
+  },
+  "grapecreekisd.net": {
+    "lat": 31.55883,
+    "lng": -100.54721,
+    "city": "SAN ANGELO",
+    "state": "TX",
+    "name": "GRAPE CREEK ISD"
+  },
+  "pasadenaisd.org": {
+    "lat": 29.65213,
+    "lng": -95.16457,
+    "city": "PASADENA",
+    "state": "TX",
+    "name": "PASADENA ISD"
+  },
+  "holleycsd.org": {
+    "lat": 43.23066,
+    "lng": -78.02796,
+    "city": "HOLLEY",
+    "state": "NY",
+    "name": "HOLLEY CENTRAL SCHOOL DISTRICT"
+  },
+  "fallsburgcsd.net": {
+    "lat": 41.7328,
+    "lng": -74.6144,
+    "city": "FALLSBURG",
+    "state": "NY",
+    "name": "FALLSBURG CENTRAL SCHOOL DISTRICT"
+  },
+  "caddomillsisd.org": {
+    "lat": 33.07801,
+    "lng": -96.2286,
+    "city": "CADDO MILLS",
+    "state": "TX",
+    "name": "CADDO MILLS ISD"
+  },
+  "southsideisd.org": {
+    "lat": 29.24064,
+    "lng": -98.47278,
+    "city": "SAN ANTONIO",
+    "state": "TX",
+    "name": "SOUTHSIDE ISD"
+  },
+  "bayless.k12.mo.us": {
+    "lat": 38.55371,
+    "lng": -90.31846,
+    "city": "ST LOUIS",
+    "state": "MO",
+    "name": "BAYLESS"
+  },
+  "pocahontas.k12.ia.us": {
+    "lat": 42.73188,
+    "lng": -94.67195,
+    "city": "Pocahontas",
+    "state": "IA",
+    "name": "Pocahontas Area Comm School District"
+  },
+  "glasgow.kyschools.us": {
+    "lat": 36.98115,
+    "lng": -85.93858,
+    "city": "Glasgow",
+    "state": "KY",
+    "name": "Barren County"
+  },
+  "brentwood.k12.ca.us": {
+    "lat": 37.92238,
+    "lng": -121.68334,
+    "city": "Brentwood",
+    "state": "CA",
+    "name": "Brentwood Union"
+  },
+  "cheshire.k12.ct.us": {
+    "lat": 41.49984,
+    "lng": -72.90166,
+    "city": "Cheshire",
+    "state": "CT",
+    "name": "Cheshire School District"
+  },
+  "surry.k12.nc.us": {
+    "lat": 36.39678,
+    "lng": -80.72478,
+    "city": "Dobson",
+    "state": "NC",
+    "name": "Surry County Schools"
+  },
+  "alexander.k12.nc.us": {
+    "lat": 35.91312,
+    "lng": -81.18937,
+    "city": "Taylorsville",
+    "state": "NC",
+    "name": "Alexander County Schools"
+  },
+  "royal-isd.net": {
+    "lat": 29.82528,
+    "lng": -95.99386,
+    "city": "PATTISON",
+    "state": "TX",
+    "name": "ROYAL ISD"
+  },
+  "hemetusd.org": {
+    "lat": 33.74321,
+    "lng": -116.9905,
+    "city": "Hemet",
+    "state": "CA",
+    "name": "Hemet Unified"
+  },
+  "newton.k12.ga.us": {
+    "lat": 33.59928,
+    "lng": -83.85396,
+    "city": "Covington",
+    "state": "GA",
+    "name": "Newton County"
+  }
+}
