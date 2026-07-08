@@ -207,7 +207,7 @@ def main():
                 and cached.get("lat")
                 and cached.get("lng")
                 and cached_location == current_location
-                and cached.get("geo_method") != "timezone"):
+                and cached.get("geo_method") not in ("timezone", "state_lookup")):
             stats["cached"] += 1
             output.append({
                 "id":member_id,"name":name,
